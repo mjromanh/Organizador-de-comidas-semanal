@@ -20,6 +20,8 @@
 - **Almuerzo:** primero sopa sin carbohidrato o ensalada; luego proteína + carbohidrato.
 - **Cena:** sopa o algo sin carbohidratos. **Asume SIEMPRE invierno** (sin preguntar, hasta aviso): corte de carbohidratos **18:00** (verano sería 19:00).
 - **Evitar para ella:** tomate crudo, coliflor, coles de Bruselas, betarraga, tofu, soya deshidratada/texturizada, seitán y verduras de sabor fuerte similares. **Sí permitidos:** salsa de tomate y edamame.
+- **Nombrar las verduras concretas** en cada preparación (ej. "tortilla de atún con zanahoria y espinaca"), nunca "de verduras" a secas.
+- **La tortilla es de atún y verduras** (lleva huevo + atún). Como usa huevo y atún a la vez, **al día siguiente no repetir atún ni huevo**: rota a **legumbres** (incl. edamame) u otra categoría para no cargarlas.
 - Le da igual repetir.
 
 ## Hombre — alto en proteína, práctico

@@ -46,9 +46,9 @@ Las reglas del hogar viven en esos archivos; no las dupliques en la respuesta. A
 
 ### 3. Plan de cocina (qué se cocina cada día)
 
-**Instrucciones:** para cada día de cocina, las preparaciones con ingredientes e instrucciones paso a paso, en un orden que aproveche el tiempo y quepa en la sesión.
+**Instrucciones:** para cada día de cocina, las preparaciones con ingredientes e instrucciones paso a paso, en un orden que aproveche el tiempo y quepa en la sesión. Usa **cantidades exactas** (g / tazas / unidades / latas), **sin rangos ambiguos** (no "2 o 3 tazas"): define el número y explícita de qué lleva cada preparación (ej. "tortilla: 6 huevos + 1 lata de atún + 1 zanahoria + 1 taza de espinaca") y **cuánta proteína** se cocina por comensal.
 **Referencia:** `organizacion_hogar` (días, tiempos, equipos), `receta_papilla`.
-**Verificaciones clave:** cada sesión cabe en su tope de tiempo (si no, versión más corta o alternativa rápida); recetas claras y ejecutivas, paso a paso.
+**Verificaciones clave:** cada sesión cabe en su tope de tiempo (si no, versión más corta o alternativa rápida); recetas claras y ejecutivas, paso a paso, **con cantidades exactas**.
 **Formato de entrega:** por día de cocina, lista ordenada de preparaciones con su receta.
 
 ### 4. Guardado (qué se guarda y dónde)
@@ -60,8 +60,8 @@ Las reglas del hogar viven en esos archivos; no las dupliques en la respuesta. A
 
 ### 5. Indicaciones por día para quien cocina y guarda
 
-**Instrucciones:** consolida las tareas 3 y 4 en una hoja por cada día de cocina: qué cocinar y en qué orden, qué empacar, qué guardar y dónde. Lenguaje claro, paso a paso.
-**Formato de entrega:** una hoja por día de cocina, en orden de ejecución.
+**Instrucciones:** consolida las tareas 3 y 4 en una hoja por cada día de cocina. La hoja contempla **ambas cosas con claridad**: (1) **Preparar** — qué cocinar, en qué orden y con **cantidades exactas**; y (2) **Guardar** — distinguiendo siempre las **dos variables**: **(a) lo que queda en la casa** y **(b) lo que va a la oficina**, y para **cada una** si va a **refri o a freezer** (y hasta cuándo). Lenguaje claro, paso a paso.
+**Formato de entrega:** una hoja por día de cocina, en orden de ejecución, con dos bloques: **Preparar** y **Guardar (casa / oficina → refri o freezer)**.
 
 ### 6. Plan de descongelado
 
