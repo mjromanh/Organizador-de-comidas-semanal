@@ -45,7 +45,7 @@
 - **Vacuno:** solo en **almuerzo, nunca en cena**; máximo 2×/semana (entre BLW y papilla).
 
 **Tanda nueva y stock:**
-- Se cocina **1 receta de papilla por semana** (7 porciones): se consume **1 porción el mismo día o el siguiente** y **el resto se congela** como **stock de esa proteína** para las semanas siguientes.
+- Se cocina **1 receta de papilla por semana** (6 porciones): se consume **1 porción el mismo día o el siguiente** y **las otras 5 se congelan** como **stock de esa proteína** para las semanas siguientes.
 - Por eso, en una semana el bebé consume papillas de **proteínas variadas** sacadas del stock (no todas de la tanda nueva).
 - **Stock inicial (asúmelo al empezar):** hay papillas de **pollo, carne (vacuno) y lentejas**.
 

@@ -3,7 +3,7 @@
 > Receta y método para cocinar la **tanda nueva** de papilla de la semana. Se consulta **solo cuando se planifica/cocina la papilla**.
 > La **política** de papillas (stock, consumo, frecuencias, reglas de vacuno) vive en `perfiles_dieta` → "Bebé · Papillas". Aquí va únicamente **cómo se cocina la tanda**.
 
-Una tanda de **7 porciones (190 ml)**, la hace la cocinera completa el **jueves** (cocinar + triturar + porcionar + congelar), con el fin de **reponer el stock** del freezer. **Variar la proteína cada semana** (qué proteína se repone lo definen la política en `perfiles_dieta` y la `bitacora`).
+Una tanda de **6 porciones (190 ml)**, la hace la cocinera completa el **jueves** (cocinar + triturar + porcionar + congelar), con el fin de **reponer el stock** del freezer. **Variar la proteína cada semana** (qué proteína se repone lo definen la política en `perfiles_dieta` y la `bitacora`).
 
 ## Reglas de la tanda
 - **No** lleva pescado, huevo ni cerdo. Sin sal, azúcar ni miel.
