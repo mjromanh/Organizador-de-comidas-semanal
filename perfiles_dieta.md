@@ -16,7 +16,7 @@
 ## Mujer — pescetariana
 - Vegetariana + **pescado solo cocido**. Come huevos, lácteos, legumbres, verduras, cereales. No carnes.
 - Pescados: salmón, trucha, merluza, atún en lata al agua bajo en sodio.
-- **Sin azúcares ni endulzantes añadidos** (azúcar, fructosa libre, dextrosa, maltosas, miel, jarabes). **La fruta entera SÍ** (su fructosa natural no cuenta). Siempre desayuna.
+- **Sin azúcares ni endulzantes añadidos** (azúcar, fructosa libre, dextrosa, maltosas, miel, jarabes). **La fruta entera SÍ** (su fructosa natural no cuenta), pero **solo en el desayuno**: **sin fruta en almuerzo ni cena** (el postre de fruta de almuerzo/cena es **solo del bebé**, por su pauta). Siempre desayuna.
 - **Almuerzo:** primero sopa sin carbohidrato o ensalada; luego proteína + carbohidrato.
 - **Cena:** sopa o algo sin carbohidratos. **Asume SIEMPRE invierno** (sin preguntar, hasta aviso): corte de carbohidratos **18:00** (verano sería 19:00).
 - **Evitar para ella:** tomate crudo, coliflor, coles de Bruselas, betarraga, tofu, soya deshidratada/texturizada, seitán y verduras de sabor fuerte similares. **Sí permitidos:** salsa de tomate y edamame.
