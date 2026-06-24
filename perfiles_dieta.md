@@ -10,7 +10,7 @@
 - **Adultos:** almuerzo y cena en los **días hábiles** de la semana (martes, miércoles, jueves, viernes y lunes). **Sábado y domingo salen o piden** (no se cocina para adultos).
 - **Mujer:** desayuna **los 7 días** (finde: armado simple). El hombre **no desayuna**.
 - **Bebé:** come **los 7 días** (desayuno, almuerzo y cena).
-- **Almuerzo de oficina de la mujer:** lo lleva **lunes, martes, miércoles y jueves**; el **viernes almuerza en casa**. La porción de oficina se **aparta y empaca en la sesión de cocina** (martes o jueves) y se guarda según el día en que se consume: a **refri** si es para los días cercanos, o al **freezer** si el consumo es lejano. Ej.: el almuerzo de oficina del **lunes** (legumbre) se empaca y **congela el jueves**, día de su preparación, y se descongela la noche anterior.
+- **Almuerzo de oficina de la mujer:** lo lleva **lunes, martes, miércoles y jueves**; el **viernes almuerza en casa**. Cada porción de oficina se **aparta y empaca en la sesión de cocina** y se guarda según cuándo se consume. **Reparto fijo:** en la sesión del **martes** se empacan los potes de **miércoles y jueves** (→ **refri**); en la del **jueves**, los de **lunes y del martes siguiente** (→ **freezer**, se descongelan la noche anterior). Por eso el pote del **martes** de cada semana viene del **jueves anterior**.
 - **Último día de la semana (lunes):** todas las comidas salen del freezer. **Almuerzo = sopa de entrada (no ensalada, por venir de freezer) + legumbre rotada** (sin repetir la de la semana anterior); **cena = sopa**. Las preparaciones de ese día se diseñan para congelar y recalentar bien.
 
 ## Mujer — pescetariana
