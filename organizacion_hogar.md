@@ -14,6 +14,7 @@
   - **Jueves (1–2 h):** sesión larga.
 - **No se cocina** miércoles, viernes, sábado, domingo ni lunes. Esas comidas salen de refri o freezer.
 - Los ítems de cocción larga (arroz integral, legumbres secas, guisos) van a la sesión del jueves, quedan listos/congelados, o usan alternativa rápida (arroz blanco, legumbres de tarro, olla a presión).
+- **No cocinar más de una legumbre por sesión de cocina** (repártelas entre martes y jueves; el **edamame cuenta como legumbre**).
 
 ## Equipos disponibles
 

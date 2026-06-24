@@ -33,7 +33,8 @@
 ## Bebé — BLW + papillas
 - Reglas y estructura: ver `pauta_nutricionista_bebe`.
 - **Reglas duras propias:** sin **lácteos ni avena** (hasta 10 meses = 10/07/2026), sin miel, sin sal, sin azúcar, **sin salsa de soya**; texturas seguras/blandas.
-- **Desayuno compartido con la mujer:** mismos ingredientes, una sola preparación (ajustar textura para el bebé), cumpliendo a la vez las reglas de ambos (del bebé y el "sin azúcar añadido"/intolerancias de ella; ej. nada de tomate crudo).
+- **Desayuno compartido con la mujer:** mismos ingredientes, una sola preparación (ajustar textura para el bebé), cumpliendo a la vez las reglas de ambos (del bebé y el "sin azúcar añadido"/intolerancias de ella; ej. nada de tomate crudo). **Sin fruta en el desayuno.**
+- **Fruta del bebé = postre de almuerzo y cena** (1 porción, 100–150 g, según la pauta), no en el desayuno. Cubre el "frutas todos los días".
 - **BLW del bebé (fuera de la papilla):** se aparta de la comida familiar, sin sal ni aliños.
   - **Pescado y huevo:** la papilla **no** los lleva y el fin de semana es todo papilla, así que el bebé los cubre con **BLW entre semana**.
   - **Legumbres:** pueden venir como **BLW** de la **preparación de legumbres de los adultos** (fresca, o una **porción congelada** de esa misma preparación para otro día). Esto **NO es una papilla de legumbre**: no consume stock de papilla ni cuenta dentro de las ~6 papillas de la semana, pero **sí suma** a la frecuencia de legumbres del bebé.
