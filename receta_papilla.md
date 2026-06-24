@@ -10,7 +10,7 @@ Una tanda de **6 porciones (190 ml)**, la hace la cocinera completa el **jueves*
 - Estructura: 1 proteína + 1 base cremosa + ≥3 verduras de colores distintos + 30 g de carbohidrato.
 
 ### Proteína de la tanda
-- 350 g cocidos (solo vacuno / pollo / pavo).
+- 300 g cocidos (solo vacuno / pollo / pavo) → ≈ 50 g por porción, según la pauta.
 - Si la tanda es de **legumbres** como proteína principal: van en mayor cantidad, no rigen los 350 g.
 - Si la tanda es de **vacuno**, su **consumo** sigue las reglas de vacuno de `perfiles_dieta` (solo almuerzos, nunca cena).
 
