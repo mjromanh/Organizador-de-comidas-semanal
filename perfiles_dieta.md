@@ -37,13 +37,22 @@
 ### Papillas — stock, consumo y frecuencias (política)
 > Toda la **política** de papillas vive acá (en la dieta del bebé). La **receta y el método** para cocinar la tanda están en `receta_papilla`, que se consulta **solo cuando se planifica/cocina la papilla de la semana**.
 
-- **Stock rotativo:** el freezer mantiene **~6 papillas de proteínas variadas** (de semanas previas). Asúmelo siempre; no preguntes por el stock.
-- **Tanda nueva semanal:** se cocina **1 tanda (7 porciones, 1 sola proteína)** con el **único fin de reponer** el stock; **no se consume entera esa semana**. Su proteína **rota cada semana** y es la que se registra en `bitacora`.
-- **Consumo del bebé:** ~6 papillas/semana = **fin de semana + 2 cenas**; el resto de sus comidas es **BLW** adaptado de la comida familiar. Esas papillas **salen del stock variado** → aportan **proteínas distintas** (pollo, pavo, vacuno, legumbres, pescado…).
-- **Conteo de frecuencias:** al verificar los mínimos del bebé, cuenta las papillas **consumidas** como proteínas **variadas del stock**, NO como la proteína de la tanda nueva.
-- **Vacuno (consumo):** solo en **almuerzos, nunca en cena**; **máximo 2×/semana** (entre BLW y papilla). Si la semana incluye vacuno, repártelo: una vez **BLW entre semana** y otra como **papilla en un almuerzo del finde** (nunca las dos juntas en el finde). Las **2 cenas con papilla** son siempre **no-vacuno** (pollo/pavo).
+**Consumo semanal (~6 papillas):**
+- **Sábado y domingo:** se **almuerza y se cena papilla** (4 papillas).
+- **Lunes a viernes:** se usan **2 papillas** en total; el resto de las comidas de esos días es **BLW** adaptado de la comida familiar.
+- **Un almuerzo del sábado o domingo es de vacuno.**
+- **Si toca papilla de legumbre, va siempre en horario de almuerzo** (nunca en cena).
+- **Vacuno:** solo en **almuerzo, nunca en cena**; máximo 2×/semana (entre BLW y papilla).
 
-> ✍️ **Hogar:** completa o ajusta aquí lo que falte de la política de papillas (tienes más reglas por sumar).
+**Tanda nueva y stock:**
+- Se cocina **1 receta de papilla por semana** (7 porciones): se consume **1 porción el mismo día o el siguiente** y **el resto se congela** como **stock de esa proteína** para las semanas siguientes.
+- Por eso, en una semana el bebé consume papillas de **proteínas variadas** sacadas del stock (no todas de la tanda nueva).
+- **Stock inicial (asúmelo al empezar):** hay papillas de **pollo, carne (vacuno) y lentejas**.
+
+**Qué proteína se cocina / se consume:**
+- Las proteínas de las papillas (la tanda que se cocina y las que se sacan del stock) se definen según las **reglas de la dieta del bebé** y sus **frecuencias mínimas de proteína**, que viven en la pauta (`pauta_nutricionista_bebe`, tabla "Frecuencia de consumo por grupo"). No se duplican acá.
+- **Conteo de frecuencias:** cuenta las papillas **consumidas** (de proteína variada del stock), NO la proteína de la tanda nueva, y verifícalas contra la **tabla de frecuencias de la pauta**.
+- La proteína de la **tanda nueva** se registra en `bitacora` para no repetirla las próximas semanas.
 
 ## Balance y variedad de proteínas
 - **Cuota semanal + rotación pareja, sin topes por día.** Reparte las proteínas parejo en la semana, sin que una categoría copie. **Se pueden repetir comidas** (la misma preparación puede servir varias comidas o días); no es obligatorio variar todos los platos.
