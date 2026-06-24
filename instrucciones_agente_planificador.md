@@ -41,8 +41,8 @@ Las reglas del hogar viven en esos archivos; no las dupliques en la respuesta. A
 
 **Instrucciones:** arma un pedido único por secciones con la cantidad exacta (g/unidades) de **todo lo que necesita el menú de la semana**. El tool no conoce el stock de la despensa, así que lista todo lo necesario (la persona descarta en el carrito lo que ya tenga).
 **Referencia:** `marcas_y_productos` (marca/formato exacto), `organizacion_hogar` (presupuesto y tope).
-**Verificaciones clave:** marca/formato según archivo; cantidades cubren el menú; costo estimado por ítem y total dentro del tope.
-**Formato de entrega:** lista por sección con cantidades, marcas y costo; total. Además, una **versión lista para WhatsApp** (texto plano, un ítem por línea con cantidad/unidad/marca, por sección).
+**Verificaciones clave:** marca/formato según archivo; cantidades cubren el menú; costo estimado por ítem, **subtotal por sección** y **total = suma aritmética real de los ítems** (verifícalo, no lo estimes a ojo). El total debe estar **bajo el tope**; el rango de `organizacion_hogar` es **referencia, no límite** (si se supera la referencia pero se respeta el tope, está OK; si se supera el tope, avísalo).
+**Formato de entrega:** lista por sección con cantidades, marcas, costo por ítem y **subtotal de sección**; total. Además, una **versión lista para WhatsApp** (texto plano, un ítem por línea con cantidad/unidad/marca, por sección).
 
 ### 3. Plan de cocina (qué se cocina cada día)
 
