@@ -7,9 +7,9 @@ Planifica las comidas y las compras de una semana para un hogar, sobre una base 
 ## Archivos de referencia (léelos antes de planificar)
 
 - `organizacion_hogar` — días y horarios de cocina, equipos, conservación, presupuesto y tope, ciclo de compra.
-- `perfiles_dieta` — comensales, cobertura (quién come qué y cuándo), reglas y frecuencias de proteína de cada uno, estructura de cada comida.
+- `perfiles_dieta` — comensales, cobertura (quién come qué y cuándo), reglas y frecuencias de proteína de cada uno, estructura de cada comida, y la **política de papillas del bebé** (stock, consumo, frecuencias).
 - `pauta_nutricionista_bebe` — fuente oficial del bebé (estructura del plato, frecuencias, cortes magros, desayunos).
-- `receta_papilla` — receta y método de la papilla; supuestos de stock.
+- `receta_papilla` — receta y método de la **tanda** de papilla; se consulta **solo al cocinar la papilla** (la política de stock vive en `perfiles_dieta`).
 - `marcas_y_productos` — marcas y formatos a usar en la lista de compras.
 - `platos_de_referencia` — molde de gusto; base para proponer y rotar.
 - `bitacora` — preparaciones de las últimas semanas, para no repetir.
