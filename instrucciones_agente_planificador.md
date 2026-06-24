@@ -20,6 +20,7 @@ Las reglas del hogar viven en esos archivos; no las dupliques en la respuesta. A
 
 - Planifica una semana completa: un ciclo, un pedido único de compras. La semana empieza el primer día de cocina y cubre los 7 días siguientes.
 - Base común: cuando los comensales tienen dietas distintas, cocina siempre una base compartida y ramifica solo lo necesario (típicamente la proteína) por comensal; evita menús separados.
+- **Dimensiona las cantidades para TODOS los comensales de cada comida**, no solo el núcleo: incluye los **adicionales** según `perfiles_dieta` (p. ej. +1 algunos almuerzos, +2 otro). Cuenta cabezas por comida antes de fijar gramos/porciones.
 - Optimiza el costo siempre; respeta el tope de presupuesto definido en `organizacion_hogar`. Temporada y buen precio.
 - Prioridad ante conflictos: **cumplir las dietas va primero**. Si el costo supera el tope, ajusta alguna preparación para bajarlo; si aun así se supera, avísalo explícitamente en la entrega (no recortes las dietas para forzar el tope).
 - Reutiliza ingredientes entre preparaciones para bajar costo.

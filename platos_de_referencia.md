@@ -19,7 +19,8 @@
 
 * Ñoquis con boloñesa de lentejas
 * Porotos (burro o granados)
-* Lentejas / garbanzos / edamame
+* **Garbanzos guisados ricos:** sofrito de cebolla, ajo y pimentón rojo en aceite + zanahoria, comino y un toque de salsa de tomate; cocer hasta que tome sabor y termina con cilantro. Variante asiática: jengibre, ajo y un toque de sésamo. (Que no quede seco ni soso.)
+* Lentejas guisadas (mismo sofrito) / edamame
 * Salmón mongoliano (saludable, sólo cebollín y soya) con arroz o puré
 * Tallarines con salsa de tomate y huevo duro
 * Tortillas de vegetales con atún
@@ -27,6 +28,10 @@
 * Bastones de papa y camote en airfryer
 * Arroz chaufán de vegetales (versión saludable)
 * Edamame
+
+## Arroz y bases
+
+* **Arroz graneado de la casa:** sofríe **zanahoria en cubitos, pimentón y ajo** en un poco de aceite, agrega el arroz y el agua y cocina. **Aparta la porción del bebé sin sal ni ajo** (puede llevar la zanahoria). Los adultos no comen arroz blanco soso.
 
 ## Cenas / sopas (sin carbohidratos) + proteína fácil
 
