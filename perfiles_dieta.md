@@ -32,7 +32,7 @@
 
 ## Bebé — BLW + papillas
 - Reglas y estructura: ver `pauta_nutricionista_bebe`.
-- **Reglas duras propias:** sin lácteos (hasta 10 meses), sin miel, sin sal, sin azúcar, **sin salsa de soya**; texturas seguras/blandas.
+- **Reglas duras propias:** sin **lácteos ni avena** (hasta 10 meses = 10/07/2026), sin miel, sin sal, sin azúcar, **sin salsa de soya**; texturas seguras/blandas.
 - **Desayuno compartido con la mujer:** mismos ingredientes, una sola preparación (ajustar textura para el bebé), cumpliendo a la vez las reglas de ambos (del bebé y el "sin azúcar añadido"/intolerancias de ella; ej. nada de tomate crudo).
 - **BLW del bebé (fuera de la papilla):** se aparta de la comida familiar, sin sal ni aliños.
   - **Pescado y huevo:** la papilla **no** los lleva y el fin de semana es todo papilla, así que el bebé los cubre con **BLW entre semana**.
