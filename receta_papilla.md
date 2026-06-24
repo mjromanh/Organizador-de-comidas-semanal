@@ -1,19 +1,18 @@
-# RECETA DE PAPILLA DEL BEBÉ (semanal — respetar tal cual)
+# RECETA DE PAPILLA DEL BEBÉ (tanda semanal — respetar tal cual)
 
-> Referencia para la papilla de cada semana. El cuerpo del prompt arma la papilla según este archivo.
+> Receta y método para cocinar la **tanda nueva** de papilla de la semana. Se consulta **solo cuando se planifica/cocina la papilla**.
+> La **política** de papillas (stock, consumo, frecuencias, reglas de vacuno) vive en `perfiles_dieta` → "Bebé · Papillas". Aquí va únicamente **cómo se cocina la tanda**.
 
-Una receta de **7 porciones (190 ml)**, la hace la cocinera completa el **jueves** (cocinar + triturar + porcionar + congelar). **Asume siempre 6 papillas de proteína variada en stock; igual haz una nueva y no preguntes por el stock.** Variar proteína cada semana.
+Una tanda de **7 porciones (190 ml)**, la hace la cocinera completa el **jueves** (cocinar + triturar + porcionar + congelar), con el fin de **reponer el stock** del freezer. **Variar la proteína cada semana** (qué proteína se repone lo definen la política en `perfiles_dieta` y la `bitacora`).
 
-## Reglas
+## Reglas de la tanda
 - **No** lleva pescado, huevo ni cerdo. Sin sal, azúcar ni miel.
 - Estructura: 1 proteína + 1 base cremosa + ≥3 verduras de colores distintos + 30 g de carbohidrato.
 
-### Proteína
+### Proteína de la tanda
 - 350 g cocidos (solo vacuno / pollo / pavo).
-- **Vacuno solo en almuerzos, nunca en cena.** Si la semana incluye vacuno, repártelo **obligatoriamente**: una vez como **BLW en un almuerzo entre semana** y, por separado, una vez como **papilla en un almuerzo del fin de semana** — nunca las dos porciones de vacuno juntas en el finde.
-- Las **2 cenas con papilla usan siempre porción no-vacuno** (pollo/pavo).
-- **Vacuno máximo 2 veces por semana** (entre BLW y papilla).
-- Legumbres como proteína principal: van en mayor cantidad, no rigen los 350 g.
+- Si la tanda es de **legumbres** como proteína principal: van en mayor cantidad, no rigen los 350 g.
+- Si la tanda es de **vacuno**, su **consumo** sigue las reglas de vacuno de `perfiles_dieta` (solo almuerzos, nunca cena).
 
 ### Resto
 - **Base cremosa libre, ~450 g:** camote, papa o zapallo.

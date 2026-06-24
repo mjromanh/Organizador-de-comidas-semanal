@@ -32,7 +32,18 @@
 - Reglas y estructura: ver `pauta_nutricionista_bebe`.
 - **Reglas duras propias:** sin lácteos (hasta 10 meses), sin miel, sin sal, sin azúcar, **sin salsa de soya**; texturas seguras/blandas.
 - **Desayuno compartido con la mujer:** mismos ingredientes, una sola preparación (ajustar textura para el bebé), cumpliendo a la vez las reglas de ambos (del bebé y el "sin azúcar añadido"/intolerancias de ella; ej. nada de tomate crudo).
-- **Papillas solo en el fin de semana + 2 cenas** (~6 porciones/sem); el resto, BLW adaptado de la comida familiar.
+- **Papillas:** ver la política completa abajo.
+
+### Papillas — stock, consumo y frecuencias (política)
+> Toda la **política** de papillas vive acá (en la dieta del bebé). La **receta y el método** para cocinar la tanda están en `receta_papilla`, que se consulta **solo cuando se planifica/cocina la papilla de la semana**.
+
+- **Stock rotativo:** el freezer mantiene **~6 papillas de proteínas variadas** (de semanas previas). Asúmelo siempre; no preguntes por el stock.
+- **Tanda nueva semanal:** se cocina **1 tanda (7 porciones, 1 sola proteína)** con el **único fin de reponer** el stock; **no se consume entera esa semana**. Su proteína **rota cada semana** y es la que se registra en `bitacora`.
+- **Consumo del bebé:** ~6 papillas/semana = **fin de semana + 2 cenas**; el resto de sus comidas es **BLW** adaptado de la comida familiar. Esas papillas **salen del stock variado** → aportan **proteínas distintas** (pollo, pavo, vacuno, legumbres, pescado…).
+- **Conteo de frecuencias:** al verificar los mínimos del bebé, cuenta las papillas **consumidas** como proteínas **variadas del stock**, NO como la proteína de la tanda nueva.
+- **Vacuno (consumo):** solo en **almuerzos, nunca en cena**; **máximo 2×/semana** (entre BLW y papilla). Si la semana incluye vacuno, repártelo: una vez **BLW entre semana** y otra como **papilla en un almuerzo del finde** (nunca las dos juntas en el finde). Las **2 cenas con papilla** son siempre **no-vacuno** (pollo/pavo).
+
+> ✍️ **Hogar:** completa o ajusta aquí lo que falte de la política de papillas (tienes más reglas por sumar).
 
 ## Balance y variedad de proteínas
 - **Cuota semanal + rotación pareja, sin topes por día.** Reparte las proteínas parejo en la semana, sin que una categoría copie. **Se pueden repetir comidas** (la misma preparación puede servir varias comidas o días); no es obligatorio variar todos los platos.
