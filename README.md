@@ -13,6 +13,8 @@ Dentro de Claude Code, en este repositorio:
 - **`/planificar-semana`** — arma la semana completa (las 7 tareas) y guarda el
   plan en `planes/semana-AAAA-MM-DD.md`. Te muestra el menú y la lista de compras
   lista para WhatsApp.
+- **`/verificar-semana`** — doble verificador independiente: revisa que el plan generado
+  cumpla todas las reglas (dietas, frecuencias, cobertura, cantidades, presupuesto).
 - **`/cerrar-semana`** — al terminar la semana, actualiza la bitácora y propone
   registrar marcas o platos nuevos que resultaron.
 
@@ -21,6 +23,7 @@ Dentro de Claude Code, en este repositorio:
 **Lógica (vive en Claude, igual para todos los hogares):**
 
 - `.claude/skills/planificar-semana/` — la skill que planifica la semana.
+- `.claude/skills/verificar-semana/` — el doble verificador del plan.
 - `.claude/skills/cerrar-semana/` — la skill de cierre y mejora continua.
 - `instrucciones_agente_planificador.md` — la especificación maestra del agente
   (qué entrega y cómo). Las skills la siguen al pie de la letra.

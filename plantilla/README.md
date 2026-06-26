@@ -8,6 +8,9 @@ comensal cuando hay dietas distintas, sobre una base común.
 Esta es la **versión genérica**: sirve para cualquier hogar (una persona o varias, con o sin
 niños, con cualquier dieta o ninguna).
 
+> **Alcance:** pensado para **Chile** — la lista de compras usa **pesos chilenos (CLP)** y
+> productos/tiendas locales. No está adaptado a otros países (moneda/unidades/marcas).
+
 ## Empezar (una vez)
 
 En Claude Code, abierto sobre este repositorio:
@@ -20,7 +23,8 @@ Eso es todo el setup. Después:
 
 2. **`/planificar-semana`** — arma tu semana completa y guarda el plan en
    `planes/semana-AAAA-MM-DD.md` (te muestra el menú y la lista de compras lista para WhatsApp).
-3. **`/cerrar-semana`** — al terminar la semana, actualiza la bitácora y registra marcas o
+3. **`/verificar-semana`** — doble verificador: revisa que el plan cumpla todas las reglas.
+4. **`/cerrar-semana`** — al terminar la semana, actualiza la bitácora y registra marcas o
    platos nuevos que resultaron.
 
 ## Cómo está organizado
@@ -29,6 +33,7 @@ Eso es todo el setup. Después:
 - `instrucciones_agente_planificador.md` — la especificación del agente (qué entrega y cómo).
 - `.claude/skills/configurar-hogar/` — la entrevista de configuración.
 - `.claude/skills/planificar-semana/` — el planificador semanal.
+- `.claude/skills/verificar-semana/` — el doble verificador del plan.
 - `.claude/skills/cerrar-semana/` — el cierre y la mejora continua.
 
 **Plantillas (moldes que se rellenan en la configuración):**

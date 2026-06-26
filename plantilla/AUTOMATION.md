@@ -25,14 +25,17 @@ referencia) y tener un primer plan validado a mano.
 Eres el planificador de comidas y compras de este hogar. Trabaja en este repositorio.
 
 1. Asegúrate de estar en la rama del proyecto y con lo último (git pull).
-2. Ejecuta la skill `planificar-semana`: lee los archivos de referencia y arma el plan
-   completo del próximo ciclo, con las 7 tareas (menú, lista de compras, plan de cocina,
-   guardado, hoja por día, descongelado y notas de seguridad). Guarda el plan en
-   planes/semana-AAAA-MM-DD.md.
-3. Aplica y reporta las verificaciones que define instrucciones_agente_planificador.md
-   (dietas, frecuencias, cantidades para todos los comensales, total bajo el tope).
-4. Haz commit del plan nuevo y push. NO abras pull request.
-5. En el mensaje final, muestra el menú resumido y la lista de compras lista para WhatsApp.
+2. CIERRE: si en planes/ hay un plan de la semana que recién terminó, corre `cerrar-semana`
+   para registrarlo en bitacora.md (así la semana nueva no repite). Si no hay semana previa,
+   sáltate este paso.
+3. PLANIFICA: ejecuta `planificar-semana` para el próximo ciclo, con las 7 tareas. Guarda el
+   plan en planes/semana-AAAA-MM-DD.md.
+4. VERIFICA: corre `verificar-semana` sobre el plan nuevo (doble chequeo independiente de
+   dietas, frecuencias, cobertura, cantidades por headcount y presupuesto). Si hay ❌,
+   corrige con `planificar-semana` y vuelve a verificar.
+5. Haz commit (plan nuevo + bitacora actualizada) y push. NO abras pull request.
+6. En el mensaje final: menú resumido, lista de compras para WhatsApp, y el resultado del
+   verificador.
 ```
 
 ## Notas

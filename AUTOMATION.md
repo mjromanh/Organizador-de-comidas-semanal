@@ -36,20 +36,23 @@ mjromanh/Organizador-de-comidas-semanal.
    git checkout claude/magical-franklin-136dag
    git pull origin claude/magical-franklin-136dag
 
-2. Ejecuta la skill `planificar-semana`: lee los archivos de referencia y arma el plan
-   completo del próximo ciclo (martes a lunes), con las 7 tareas (menú, lista de compras,
-   plan de cocina, guardado, hoja por día, descongelado y notas de seguridad). Guarda el
-   plan en planes/semana-AAAA-MM-DD.md (la fecha es el martes que abre el ciclo).
+2. CIERRE: si en planes/ hay un plan de la semana que recién terminó, corre la skill
+   `cerrar-semana` para registrar sus preparaciones en bitacora.md (así la semana nueva
+   no repite). Si es la primera corrida y no hay semana previa, sáltate este paso.
 
-3. Aplica y reporta las verificaciones que define instrucciones_agente_planificador.md
-   (dietas, frecuencias del bebé, vacuno <=2, 1 sola preparación de pescado, papillas del
-   stock, cantidades para todos los comensales incluidos los adicionales, total bajo el
-   tope con subtotales).
+3. PLANIFICA: ejecuta `planificar-semana` para el próximo ciclo (martes a lunes), con las
+   7 tareas. Guarda el plan en planes/semana-AAAA-MM-DD.md (la fecha es el martes que abre
+   el ciclo).
 
-4. Haz commit del plan nuevo y push a la rama claude/magical-franklin-136dag.
-   NO abras pull request.
+4. VERIFICA: corre `verificar-semana` sobre el plan nuevo (doble chequeo independiente de
+   dietas, frecuencias, cobertura, cantidades por headcount y presupuesto). Si encuentra
+   ❌, corrige con `planificar-semana` y vuelve a verificar antes de seguir.
 
-5. En el mensaje final, muestra el menú resumido y la lista de compras lista para WhatsApp.
+5. Haz commit (plan nuevo + bitacora actualizada) y push a la rama
+   claude/magical-franklin-136dag. NO abras pull request.
+
+6. En el mensaje final: menú resumido, lista de compras lista para WhatsApp, y el
+   resultado del verificador (✅ o los ❌ pendientes).
 ```
 
 ## Notas
