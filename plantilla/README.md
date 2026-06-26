@@ -11,21 +11,28 @@ niños, con cualquier dieta o ninguna).
 > **Alcance:** pensado para **Chile** — la lista de compras usa **pesos chilenos (CLP)** y
 > productos/tiendas locales. No está adaptado a otros países (moneda/unidades/marcas).
 
-## Empezar (una vez)
+## Empezar (solo contestar)
 
-En Claude Code, abierto sobre este repositorio:
+**Abre este repositorio en Claude Code y listo: Claude te saluda y empieza a preguntarte solo**
+(gracias a un hook de arranque). Tú **solo contestas** sobre tu hogar: comensales, dietas, días
+de cocina, equipos, presupuesto, gustos. Con tus respuestas, Claude:
 
-1. **`/configurar-hogar`** — Claude te entrevista (comensales, dietas, días de cocina,
-   equipos, conservación, presupuesto, marcas, gustos) y genera tus archivos de referencia
-   personalizados en la raíz del repo, a partir de las **plantillas** de `plantillas/`.
+1. Genera tus archivos de referencia personalizados en la raíz (a partir de `plantillas/`).
+2. Arma tu **primer plan** de la semana y lo **verifica**.
+3. Deja todo commiteado.
 
-Eso es todo el setup. Después:
+No necesitas escribir comandos. *(Si prefieres iniciarlo a mano, igual puedes correr
+**`/configurar-hogar`**.)*
 
-2. **`/planificar-semana`** — arma tu semana completa y guarda el plan en
-   `planes/semana-AAAA-MM-DD.md` (te muestra el menú y la lista de compras lista para WhatsApp).
-3. **`/verificar-semana`** — doble verificador: revisa que el plan cumpla todas las reglas.
-4. **`/cerrar-semana`** — al terminar la semana, actualiza la bitácora y registra marcas o
-   platos nuevos que resultaron.
+Para que el plan se genere **solo cada semana**, queda un último paso (crear una Routine): ver
+`AUTOMATION.md`.
+
+### Comandos disponibles (por si los quieres a mano)
+- **`/configurar-hogar`** — la entrevista de configuración.
+- **`/planificar-semana`** — arma la semana y guarda el plan en `planes/`.
+- **`/verificar-semana`** — doble verificador: revisa que el plan cumpla todas las reglas.
+- **`/cerrar-semana`** — al terminar la semana, actualiza la bitácora y registra marcas o
+  platos nuevos que resultaron.
 
 ## Cómo está organizado
 

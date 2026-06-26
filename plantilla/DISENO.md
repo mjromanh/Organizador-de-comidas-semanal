@@ -24,12 +24,17 @@ Revisar el **flujo conversacional** de `configurar-hogar`, no solo el contenido:
 - Mostrar resúmenes y pedir confirmación antes de escribir cada archivo.
 - Adaptar la entrevista a lo que la persona va contando (saltar bloques que no aplican).
 
-### 3. Cómo se instala y se automatiza — *parte del diseño*
-Definir y documentar el **flujo de activación de punta a punta** para alguien nuevo:
-- Cómo obtiene el repo (duplicar / "Use this template" / clonar).
-- Abrir Claude Code sobre el repo → correr `/configurar-hogar` → primer `/planificar-semana`.
-- Crear la **routine** semanal (ver `AUTOMATION.md`) y dejarla corriendo.
-- Hacerlo lo más simple posible (idealmente pocos pasos, bien guiados).
+### 3. Instalación lo más automática posible — objetivo: "solo contestar preguntas"
+Meta: que la experiencia del usuario nuevo sea **abrir y contestar**; todo lo demás, automático alrededor de sus respuestas.
+
+**Flujo:**
+1. **Obtener el repo — 1 clic.** Publicar la plantilla como **template repository** de GitHub → "Use this template". *(Pendiente: ver punto 1.)*
+2. **Abrir Claude Code sobre el repo.** *(Manual inevitable: el usuario abre la sesión.)*
+3. **Arranque automático.** ✅ Implementado: un **hook SessionStart** (`.claude/settings.json` + `.claude/hooks/onboarding-check.sh`) detecta que no existe `perfiles_dieta.md` y hace que Claude **salude y empiece solo** la entrevista `configurar-hogar`. El usuario no necesita saber ningún comando.
+4. **Solo contesta.** ✅ Implementado: al terminar la entrevista, `configurar-hogar` **encadena** escribir los archivos → primer plan → verificación → commit/push. El usuario no corre nada.
+5. **Automatización semanal — único clic manual.** La Routine se crea en la web (no se puede desde una sesión web); se entrega el prompt listo y el enlace (`AUTOMATION.md`) para dejarla con los mínimos clics.
+
+**Inevitablemente manual (y por qué):** abrir la primera sesión sobre el repo; crear la Routine (la plataforma solo permite crearlas desde la web/`/schedule`, no desde dentro de una sesión web). Todo lo demás queda detrás de "contestar".
 
 ## Ideas futuras (no urgente)
 - Entrega del plan por correo/WhatsApp vía un conector (hoy queda en el repo).

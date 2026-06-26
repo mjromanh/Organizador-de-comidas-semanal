@@ -62,11 +62,13 @@ Por cada bloque confirmado, escribe el archivo correspondiente en la **raíz** d
 
 > Si un archivo no aplica a este hogar (p. ej. no hay bebé), **no lo crees** y deja una nota; ajusta las referencias para que `/planificar-semana` no lo busque.
 
-## Cierre
+## Cierre — encadena todo (que la persona solo haya contestado)
 
-Cuando estén los archivos:
-1. Confirma a la persona qué quedó configurado y dónde puede editar a mano si algo cambia.
-2. Sugiere correr **`/planificar-semana`** para generar su primer plan.
-3. Recuerda que la automatización semanal se documenta en `AUTOMATION.md`.
+Cuando los archivos estén escritos y confirmados, **no le pidas más comandos: encadena el resto tú**, para que su única tarea hayan sido las respuestas.
+1. Resume qué quedó configurado y dónde puede editarlo a mano si algo cambia.
+2. Corre **`planificar-semana`** para generar su **primer plan**.
+3. Corre **`verificar-semana`** sobre ese plan; si hay ❌, corrígelo con `planificar-semana` y vuelve a verificar.
+4. Haz **commit y push** de los archivos del hogar + el primer plan.
+5. **Automatización semanal:** como la Routine se crea en la web (no desde aquí), entrégale el paso a paso ya listo de `AUTOMATION.md` —el prompt para pegar y el enlace— para que la deje corriendo con los mínimos clics. Es lo único que queda manual.
 
 > **Mejora continua:** estos archivos son la fuente de verdad del hogar. `perfiles_dieta` y `pauta_nutricionista_bebe` se editan a mano (autoridad de la persona); `bitacora`, `marcas_y_productos` y `platos_de_referencia` también aprenden solos al cerrar cada semana.
