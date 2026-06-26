@@ -1,42 +1,41 @@
-# Instalación desde cero (paso a paso)
+# Instalación
 
-> Para activar tu planificador necesitas dos cuentas: **Claude** (plan Pro, Max o Team, con
-> Claude Code en la web) y **GitHub** (gratis). Si ya las tienes, son ~5 minutos.
+> **Para activar tu planificador, dentro de Claude Code dile:** «**ejecuta instalacion.md**».
+> Eso corre todo solo: te entrevista, crea tus archivos, arma tu primer plan y te deja lista la
+> automatización. **Tú solo contestas.**
+>
+> Abajo: **Parte A** = lo que haces tú para llegar a Claude; **Parte B** = lo que Claude ejecuta.
 
-## Paso 1 — Consigue tu copia del repositorio (1 clic)
+## Parte A — Antes de empezar (lo haces tú, una vez)
 
-1. Abre la página de esta plantilla en GitHub.
-2. Haz clic en el botón verde **Use this template → Create a new repository**.
-   *(Si no aparece ese botón, usa **Fork**.)*
-3. Ponle un nombre (ej. `mis-comidas`), déjalo **privado** y crea el repo. Ya tienes tu copia.
+Necesitas una cuenta de **Claude** (plan Pro, Max o Team con Claude Code en la web) y una de
+**GitHub** (gratis).
 
-## Paso 2 — Abre tu repo en Claude Code
+1. **Consigue tu copia del repo:** en GitHub, botón **Use this template → Create a new
+   repository** (si no aparece, usa **Fork**). Ponle nombre (ej. `mis-comidas`), déjalo privado.
+2. **Ábrelo en Claude Code:** entra a **https://claude.ai/code**, **conecta tu GitHub** (autoriza
+   el acceso a ese repo), **elige tu repo** e inicia una **nueva sesión**.
+   - ¿No sabes conectar GitHub? En claude.ai/code busca **"Connect GitHub" / "Add repository"** y
+     autoriza la app de Claude sobre tu repo. Si te pegas, escríbele a Claude en la sesión:
+     *"ayúdame a conectar mi repo de GitHub"*.
+3. **Dile a Claude:** «**ejecuta instalacion.md**». *(Si no escribes nada, Claude igual te saluda
+   y arranca solo.)*
 
-1. Entra a **https://claude.ai/code**.
-2. La **primera vez** te pedirá **conectar tu cuenta de GitHub**: haz clic en conectar/autorizar
-   y dale acceso al repo que creaste (puedes limitar el acceso solo a ese repo).
-3. **Elige tu repo** (`mis-comidas`) e inicia una **nueva sesión / tarea** sobre él.
+## Parte B — Lo que Claude ejecuta (tú solo contestas)
 
-> ¿No sabes conectar GitHub o no te aparece el repo? En claude.ai/code busca **"Connect GitHub"**
-> / **"Add repository"** y sigue el asistente; tienes que **autorizar la app de Claude** sobre tu
-> cuenta y marcar el repo. Si te quedas pegado, escríbele a Claude en la sesión: *"ayúdame a
-> conectar mi repo de GitHub"*.
+**Para Claude:** cuando el usuario pida "ejecuta instalacion.md" (o abra un repo sin configurar),
+haz esto de corrido, conduciendo tú la conversación:
 
-## Paso 3 — Contesta las preguntas
+1. **Entrevista:** corre la skill **`configurar-hogar`** de principio a fin — pregunta por el
+   hogar (una tanda de preguntas a la vez) y, con las respuestas, escribe los archivos de
+   referencia en la raíz del repo.
+2. **Encadena (lo hace `configurar-hogar` en su cierre):** **primer plan** con
+   `planificar-semana` → **doble chequeo** con `verificar-semana` → **commit y push**. Presenta el
+   **plan completo en el chat** (autocontenido).
+3. **Automatización:** guía al usuario, clic por clic, para crear la **Routine** semanal con los
+   pasos de `AUTOMATION.md` (entrar a `claude.ai/code/routines` → **New routine** → pegar el
+   prompt → **Weekly** + día/hora → **Create**). Sugiérele **Run now** para probar y dile que el
+   resultado queda como una **sesión en la misma página de la routine** (sin abrir GitHub).
 
-En cuanto se abre la sesión, **Claude te saluda y empieza a preguntarte solo** (comensales,
-dietas, días de cocina, presupuesto, gustos…). **Solo contesta.** Al terminar, Claude crea tus
-archivos, arma tu **primer plan** y lo guarda — sin que escribas comandos.
-
-## Paso 4 — Déjalo automático cada semana (la Routine)
-
-Es corto y se hace **una sola vez**. Hay que hacerlo a mano porque la programación se crea desde
-la web. Pasos exactos en **`AUTOMATION.md`**, en resumen:
-
-1. Entra a **https://claude.ai/code/routines** → **New routine**.
-2. Nombre: `Plan de comidas semanal`.
-3. **Pega el prompt** que está en `AUTOMATION.md`.
-4. Repositorio: tu repo. Trigger: **Weekly**, el día y hora que prefieras.
-5. **Create** (y **Run now** para probar).
-
-Listo: cada semana el plan se genera solo y queda en `planes/` de tu repo.
+Al terminar, el hogar queda configurado, con su primer plan, y el plan automático corriendo cada
+semana.

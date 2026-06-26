@@ -30,7 +30,7 @@ Meta: que la experiencia del usuario nuevo sea **abrir y contestar**; todo lo de
 **Flujo:**
 1. **Obtener el repo — 1 clic.** Publicar la plantilla como **template repository** de GitHub → "Use this template". *(Pendiente: ver punto 1.)*
 2. **Abrir Claude Code sobre el repo.** *(Manual inevitable: el usuario abre la sesión.)* ✅ Pasos exactos clic por clic en `INSTALACION.md` (entrar a claude.ai/code, conectar GitHub, elegir el repo). La entrevista además pregunta si sabe conectar/crear la routine y, si no, lo guía.
-3. **Arranque automático.** ✅ Implementado: un **hook SessionStart** (`.claude/settings.json` + `.claude/hooks/onboarding-check.sh`) detecta que no existe `perfiles_dieta.md` y hace que Claude **salude y empiece solo** la entrevista `configurar-hogar`. El usuario no necesita saber ningún comando.
+3. **Arranque.** ✅ Dos vías que corren el mismo runbook (`INSTALACION.md` Parte B): (a) el usuario le dice a Claude **«ejecuta instalacion.md»** (instrucción única y memorable, destacada en el README); o (b) un **hook SessionStart** (`.claude/settings.json` + `.claude/hooks/onboarding-check.sh`) detecta el repo sin configurar y Claude **arranca solo**. No se necesita saber comandos.
 4. **Solo contesta.** ✅ Implementado: al terminar la entrevista, `configurar-hogar` **encadena** escribir los archivos → primer plan → verificación → commit/push. El usuario no corre nada.
 5. **Automatización semanal — único clic manual.** La Routine se crea en la web (no se puede desde una sesión web); se entrega el prompt listo y el enlace (`AUTOMATION.md`) para dejarla con los mínimos clics.
 

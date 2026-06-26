@@ -1,9 +1,10 @@
 # Organizador de comidas semanal — plantilla
 
 ## 👉 ¿Cómo empiezo?
-**Si es tu primera vez, sigue [`INSTALACION.md`](INSTALACION.md)** — el paso a paso desde cero
-(conseguir tu copia, entrar a Claude Code, conectar GitHub, abrir el repo). Una vez dentro,
-**Claude te saluda y te pregunta solo**: tú únicamente contestas.
+1. Consigue tu copia (**Use this template**) y ábrela en **Claude Code** (claude.ai/code →
+   conecta GitHub). Detalle en [`INSTALACION.md`](INSTALACION.md).
+2. **Ya dentro de Claude, dile: «ejecuta instalacion.md».** Eso activa **todo**: te entrevista,
+   arma tu primer plan y te deja lista la automatización. **Tú solo contestas.**
 
 ---
 

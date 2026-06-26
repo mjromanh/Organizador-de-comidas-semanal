@@ -9,8 +9,8 @@ if [ ! -f "perfiles_dieta.md" ]; then
 [ONBOARDING — PLANIFICADOR DE COMIDAS]
 Este repositorio todavía NO está configurado para ningún hogar (no existe perfiles_dieta.md en la raíz).
 Acción inmediata: saluda a la persona en español, explícale en 1–2 frases qué es esto (un planificador
-de comidas y compras semanal) y comienza de una vez la skill `configurar-hogar` para entrevistarla y
-crear sus archivos. No le pidas que escriba comandos: tú conduces la conversación, una tanda de preguntas
-a la vez. Al terminar, encadena el primer plan y deja todo commiteado (ver el cierre de la skill).
+de comidas y compras semanal) y ejecuta el runbook de instalación (la Parte B de instalacion.md): corre
+la skill `configurar-hogar` de principio a fin, una tanda de preguntas a la vez, y al terminar encadena
+el primer plan + verificación + commit y guía la creación de la Routine. No le pidas comandos: tú conduces.
 MSG
 fi
