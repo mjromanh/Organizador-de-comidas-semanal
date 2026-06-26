@@ -1,5 +1,12 @@
 # Organizador de comidas semanal — plantilla
 
+## 👉 ¿Cómo empiezo?
+**Si es tu primera vez, sigue [`INSTALACION.md`](INSTALACION.md)** — el paso a paso desde cero
+(conseguir tu copia, entrar a Claude Code, conectar GitHub, abrir el repo). Una vez dentro,
+**Claude te saluda y te pregunta solo**: tú únicamente contestas.
+
+---
+
 Planificador de comidas y compras que **vive dentro de Claude**. Tú le cuentas cómo es tu
 hogar una vez, y cada semana te entrega el menú, la lista de compras, el plan de cocina, el
 guardado, las indicaciones por día, el descongelado y las notas de seguridad — adaptados por

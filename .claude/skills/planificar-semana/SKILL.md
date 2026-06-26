@@ -43,8 +43,10 @@ Sigue el detalle, el formato de entrega y las verificaciones clave que define `i
 - **Prioridad ante conflictos:** cumplir las dietas va primero. Si el costo supera el tope, ajusta preparaciones para bajarlo; si aun así se supera, **avísalo explícitamente** (no recortes dietas para forzar el tope).
 - Si falta una marca/formato, deja el ítem genérico (no inventes marcas). Si falta otro dato, asume lo razonable y **déjalo señalado**.
 
-## Paso 4 — Guarda el plan
+## Paso 4 — Entrega en el chat y guarda
 
-Escribe la entrega completa en `planes/semana-<martes-AAAA-MM-DD>.md` (crea la carpeta `planes/` si no existe). Al terminar, muestra al usuario el resumen del menú y **la lista de compras lista para WhatsApp**, y dile dónde quedó guardado el plan completo.
+**Presenta el plan COMPLETO en el chat** —las 7 tareas enteras, no un resumen— para que sea **autocontenido**: la persona no debería tener que abrir el repo de GitHub ni iniciar sesión en otro lado para verlo. Cierra con la **lista de compras lista para WhatsApp**.
+
+Además, **guarda** esa misma entrega completa en `planes/semana-<martes-AAAA-MM-DD>.md` (crea la carpeta `planes/` si no existe) y menciona, al final, dónde quedó guardada.
 
 > Al cerrar la semana, recuerda al usuario que puede correr `/cerrar-semana` para actualizar la bitácora y registrar marcas/platos nuevos.

@@ -69,6 +69,8 @@ Cuando los archivos estén escritos y confirmados, **no le pidas más comandos: 
 2. Corre **`planificar-semana`** para generar su **primer plan**.
 3. Corre **`verificar-semana`** sobre ese plan; si hay ❌, corrígelo con `planificar-semana` y vuelve a verificar.
 4. Haz **commit y push** de los archivos del hogar + el primer plan.
-5. **Automatización semanal (último paso, corto):** es lo único que la persona hace a mano, porque la Routine se crea desde la web. **Pregúntale si sabe crear una Routine en Claude Code (o conectar el repo).** Si no sabe, **dale las instrucciones exactas, clic por clic** (las de `INSTALACION.md` / `AUTOMATION.md`: entrar a `claude.ai/code/routines` → **New routine** → pegar el prompt de `AUTOMATION.md` → elegir **Weekly** + día/hora → **Create** → **Run now** para probar). Guíalo hasta que quede creada.
+5. **Automatización semanal (último paso, corto y fácil):** es lo único que la persona hace a mano, porque la Routine se crea desde la web. **No le preguntes si sabe; dale directamente las instrucciones, clic por clic** (las de `INSTALACION.md` / `AUTOMATION.md`): entrar a `claude.ai/code/routines` → **New routine** → pegar el prompt de `AUTOMATION.md` → elegir **Weekly** + día/hora → **Create**.
+   - **Sugiérele probarla de inmediato con "Run now".**
+   - Dile **dónde ve el resultado**: la corrida queda como una **sesión en la misma página de la routine** (la abre y ve ahí el plan completo); no necesita abrir GitHub.
 
 > **Mejora continua:** estos archivos son la fuente de verdad del hogar. `perfiles_dieta` y `pauta_nutricionista_bebe` se editan a mano (autoridad de la persona); `bitacora`, `marcas_y_productos` y `platos_de_referencia` también aprenden solos al cerrar cada semana.

@@ -51,8 +51,9 @@ mjromanh/Organizador-de-comidas-semanal.
 5. Haz commit (plan nuevo + bitacora actualizada) y push a la rama
    claude/magical-franklin-136dag. NO abras pull request.
 
-6. En el mensaje final: menú resumido, lista de compras lista para WhatsApp, y el
-   resultado del verificador (✅ o los ❌ pendientes).
+6. En el mensaje final presenta el **plan completo** (las 7 tareas) + la lista de compras
+   para WhatsApp + el resultado del verificador (✅ o los ❌). Que la corrida sea
+   autocontenida: todo se ve abriendo la sesión, sin tener que abrir GitHub.
 ```
 
 ## Notas

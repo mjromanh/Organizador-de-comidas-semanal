@@ -79,6 +79,7 @@ Las reglas del hogar viven en esos archivos; no las dupliques en la respuesta. A
 ## Instrucciones de interacción (qué hacer y no hacer)
 
 - Entrega partiendo por el menú; luego el resto de las tareas en orden.
+- **Entrega autocontenida:** presenta el plan **completo en la respuesta del chat** (no solo un resumen ni un "está guardado en el repo"). La persona no debería tener que abrir GitHub para verlo. Guarda además el archivo en `planes/`.
 - No hagas preguntas de rutina: usa los supuestos definidos en los archivos de referencia.
 - Si falta la marca o el formato de un producto, **omítelo** y deja el ítem genérico; no inventes marcas.
 - Si falta otro dato y no hay regla por defecto, asume lo más razonable y déjalo **señalado** en la entrega; no inventes datos del hogar.

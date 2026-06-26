@@ -34,8 +34,9 @@ Eres el planificador de comidas y compras de este hogar. Trabaja en este reposit
    dietas, frecuencias, cobertura, cantidades por headcount y presupuesto). Si hay ❌,
    corrige con `planificar-semana` y vuelve a verificar.
 5. Haz commit (plan nuevo + bitacora actualizada) y push. NO abras pull request.
-6. En el mensaje final: menú resumido, lista de compras para WhatsApp, y el resultado del
-   verificador.
+6. En el mensaje final presenta el **plan completo** (las 7 tareas) + la lista de compras
+   para WhatsApp + el resultado del verificador. Que la corrida sea autocontenida: todo se
+   ve abriendo la sesión, sin abrir GitHub.
 ```
 
 ## Notas
