@@ -39,7 +39,7 @@ Recorre estos bloques en orden; salta lo que no aplique:
    - **Reglas operativas de cocina propias:** ¿alguna restricción al cocinar? (ej. no más de una legumbre por sesión; los ítems de cocción larga van a la sesión larga; reparto de los potes de oficina entre sesiones).
 
 3. **Gustos y marcas** → `platos_de_referencia.md` y `marcas_y_productos.md`
-   - Platos que les gustan / que funcionan (para proponer y rotar).
+   - **¿Qué platos sueles hacer y te gustan? ¿Qué te gustaría comer o repetir?** Pregúntalo siempre y con calma: son la base para proponer y rotar el menú. Anota varios (desayunos, almuerzos/cenas, sopas, lo que sea).
    - Marcas y formatos preferidos para la lista de compras (si los tienen; si no, se deja genérico).
 
 4. **Receta de papilla** (solo si hay bebé con papillas) → `receta_papilla.md`
@@ -69,6 +69,6 @@ Cuando los archivos estén escritos y confirmados, **no le pidas más comandos: 
 2. Corre **`planificar-semana`** para generar su **primer plan**.
 3. Corre **`verificar-semana`** sobre ese plan; si hay ❌, corrígelo con `planificar-semana` y vuelve a verificar.
 4. Haz **commit y push** de los archivos del hogar + el primer plan.
-5. **Automatización semanal:** como la Routine se crea en la web (no desde aquí), entrégale el paso a paso ya listo de `AUTOMATION.md` —el prompt para pegar y el enlace— para que la deje corriendo con los mínimos clics. Es lo único que queda manual.
+5. **Automatización semanal (último paso, corto):** es lo único que la persona hace a mano, porque la Routine se crea desde la web. **Pregúntale si sabe crear una Routine en Claude Code (o conectar el repo).** Si no sabe, **dale las instrucciones exactas, clic por clic** (las de `INSTALACION.md` / `AUTOMATION.md`: entrar a `claude.ai/code/routines` → **New routine** → pegar el prompt de `AUTOMATION.md` → elegir **Weekly** + día/hora → **Create** → **Run now** para probar). Guíalo hasta que quede creada.
 
 > **Mejora continua:** estos archivos son la fuente de verdad del hogar. `perfiles_dieta` y `pauta_nutricionista_bebe` se editan a mano (autoridad de la persona); `bitacora`, `marcas_y_productos` y `platos_de_referencia` también aprenden solos al cerrar cada semana.

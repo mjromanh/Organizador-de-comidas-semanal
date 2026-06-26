@@ -13,6 +13,10 @@ niños, con cualquier dieta o ninguna).
 
 ## Empezar (solo contestar)
 
+> **¿Primera vez? ¿No sabes cómo entrar a Claude o conectar el repo?** Sigue
+> **[`INSTALACION.md`](INSTALACION.md)** — los pasos exactos desde cero (conseguir tu copia,
+> abrir Claude Code, conectar GitHub, y dejar la automatización).
+
 **Abre este repositorio en Claude Code y listo: Claude te saluda y empieza a preguntarte solo**
 (gracias a un hook de arranque). Tú **solo contestas** sobre tu hogar: comensales, dietas, días
 de cocina, equipos, presupuesto, gustos. Con tus respuestas, Claude:
