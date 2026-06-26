@@ -28,12 +28,12 @@ Recorre estos bloques en orden; salta lo que no aplique:
    - **Reglas por edad con fecha futura** (sobre todo bebés/niños): alimentos que se habilitan o restringen a cierta edad (ej. lácteos/avena desde los 10 meses). Pide la **fecha de nacimiento** y deja la **fecha exacta** del cambio para que el planificador la aplique sola.
    - **Soluciones rápidas que acepta** (hamburguesas, nuggets, filetitos apanados que solo se calientan).
    - **Balance, rotación y variedad de proteínas:** cómo repartirlas en la semana y cuánto le importa variar vs. repetir.
-   - Si hay **bebé/niño con pauta de especialista**, pídela y guárdala en `pauta_nutricionista_bebe.md`; si hay papillas, define su política (ver plantilla).
+   - **¿Alguien tiene una pauta nutricional de un especialista** (nutricionista/médico)? Si la hay, pídela y **guárdala como su propio `.md`** (ej. `pauta_nutricionista_bebe.md` para un bebé, o `pauta_nutricional_[nombre].md` para un adulto); es **autoridad manual** y los demás archivos la referencian sin duplicarla. Si hay **bebé con papillas**, define además su política (ver plantilla).
 
 2. **Operación del hogar** → `organizacion_hogar.md`
    - Ciclo de compra (cada cuánto, qué día se pide/llega).
    - **Días y horarios de cocina** (cuántas sesiones por semana, cuánto dura cada una).
-   - Equipos disponibles (olla, horno, airfryer, procesadora, olla a presión, etc.).
+   - Equipos disponibles (olla, horno, airfryer, procesadora, olla a presión, etc.) **y, junto con esto, la complejidad de preparación buscada:** nivel de quien cocina y cuán elaboradas o rápidas deben ser las recetas.
    - Conservación: cuántos días aguanta el refri; qué va al freezer.
    - Presupuesto: referencia y tope. Aclara que es **referencia, no bloqueo** (la lista incluye abarrotes que se descartan si ya se tienen); el límite duro es el tope.
    - **Reglas operativas de cocina propias:** ¿alguna restricción al cocinar? (ej. no más de una legumbre por sesión; los ítems de cocción larga van a la sesión larga; reparto de los potes de oficina entre sesiones).

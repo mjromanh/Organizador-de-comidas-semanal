@@ -1,7 +1,8 @@
-# PAUTA DE ALIMENTACIÓN DEL BEBÉ / NIÑO (plantilla — solo si aplica)
+# PAUTA NUTRICIONAL (plantilla — solo si aplica)
 
-> Fuente oficial de la alimentación del bebé/niño (transcripción de la pauta del especialista).
-> **Si en el hogar no hay bebé/niño con pauta, elimina este archivo** y quita su referencia en `instrucciones_agente_planificador`.
+> Fuente oficial de la alimentación de un comensal (bebé, niño o adulto): transcripción de la pauta del especialista (nutricionista/médico).
+> Usa un archivo por persona con pauta (ej. `pauta_nutricionista_bebe.md`, `pauta_nutricional_[nombre].md`).
+> **Si nadie en el hogar tiene pauta, elimina este archivo** y quita su referencia en `instrucciones_agente_planificador`.
 > Es autoridad manual: no se modifica solo. Los demás documentos la referencian sin duplicarla.
 
 ## Horarios y estructura del día
