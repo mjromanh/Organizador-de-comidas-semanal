@@ -21,7 +21,7 @@ Recorre estos bloques en orden; salta lo que no aplique:
 1. **Comensales y cobertura** → `perfiles_dieta.md`
    - ¿Quiénes comen? (adultos, niños, bebé). ¿Comensales adicionales algunos días?
    - ¿Qué comidas cubre el plan (desayuno/almuerzo/cena) y qué días? ¿Fines de semana se cocina o salen?
-   - ¿Almuerzos para llevar (oficina/colegio)? ¿Qué días?
+   - ¿Almuerzos para llevar (oficina/colegio)? ¿Qué días? **Pregúntalo siempre.** Si lleva, define **cómo se empaca y guarda cada pote**: a **refri** si es para días cercanos, al **freezer** si es para más adelante; y en qué sesión de cocina se prepara cada uno. Esto alimenta directamente la tarea de Guardado (casa vs. oficina → refri/freezer).
    - **Dietas y restricciones de cada comensal:** vegetariano/vegano/pescetariano, alergias, "sin azúcar", proteína mínima, lo que evita, etc.
    - Reglas de balance/rotación de proteínas si las hay.
    - Si hay **bebé/niño con pauta de especialista**, pídela y guárdala en `pauta_nutricionista_bebe.md`; si hay papillas, define su política (ver plantilla).
