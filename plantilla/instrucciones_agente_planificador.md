@@ -90,7 +90,7 @@ Las reglas del hogar viven en esos archivos; no las dupliques en la respuesta. A
 
 Al cerrar la semana, actualiza los archivos que aprenden:
 
-- `bitacora` — agrega las preparaciones de la semana (proteína de la papilla, legumbre del último día, combinaciones de verduras, preparaciones principales) para que las próximas 2 semanas no se repitan. Mantén la ventana acotada.
+- `bitacora` — agrega las preparaciones de la semana **en el formato que define el propio `bitacora` del hogar** (proteínas y preparaciones principales, combinaciones de verduras, y lo que aplique a ese hogar —p. ej. proteína de la papilla o legumbre del último día **si existen**) para que las próximas semanas no se repitan. Mantén la ventana acotada.
 - `marcas_y_productos` — si se señaló una marca/producto específico para la lista de compras que no estaba registrado, regístralo.
 - `platos_de_referencia` — agrega platos nuevos que resultaron y fueron aceptados.
 - `perfiles_dieta` y `pauta_nutricionista_bebe` — **no se modifican** de forma automática (autoridad manual).

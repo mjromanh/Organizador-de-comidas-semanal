@@ -9,20 +9,13 @@ Cierras el ciclo actualizando los archivos que aprenden, según la sección **"M
 
 ## Paso 1 — Identifica la semana cerrada
 
-Toma el plan más reciente en `planes/` (o pregúntale al usuario cuál semana cerrar si hay ambigüedad). De ahí salen las preparaciones a registrar.
+Toma el plan más reciente en `planes/` (o pregúntale al usuario cuál semana cerrar si hay ambigüedad). De ahí salen las preparaciones a registrar. **Si todavía no hay ningún plan (primera vez), no hay nada que cerrar: dilo y termina.**
 
 ## Paso 2 — Actualiza `bitacora.md` (escritura directa)
 
-Agrega **una entrada nueva arriba del historial** con el formato definido en el archivo:
+Agrega **una entrada nueva arriba del historial, usando el formato que define el propio `bitacora.md`** (no inventes ni hardcodees campos: cada hogar tiene el suyo). En general se registran las **proteínas y preparaciones principales** de la semana, las **combinaciones de verduras**, y lo que ese hogar registre **si aplica** (p. ej. proteína de la papilla, legumbre del último día). El objetivo: que las próximas semanas **no repitan** proteínas, preparaciones ni combinaciones recientes.
 
-- Papilla nueva — proteína
-- Papilla nueva — verduras (combinación)
-- Legumbre del último día
-- Preparaciones principales (por comensal)
-- Combinaciones de verduras destacadas
-- Notas / no repetir la próxima
-
-Mantén la **ventana acotada** (~últimas 4 semanas): borra las entradas más antiguas que sobren.
+Mantén la **ventana acotada** (la que indique `bitacora.md`, ~últimas 4 semanas): borra las entradas más antiguas que sobren.
 
 ## Paso 3 — Propón actualizaciones a los archivos de gusto/compras
 
