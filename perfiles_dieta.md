@@ -47,12 +47,12 @@
 - **Cena: papilla TODOS los días** (las 7 cenas de la semana). *(Regla del hogar.)*
 - **Sábado y domingo:** el **almuerzo también es papilla** (no se cocina; sale del stock) → +2.
 - **Lunes a viernes el almuerzo es BLW** adaptado de la comida familiar (es donde el bebé cubre pescado, huevo, etc.).
-- **Las papillas de cena son siempre no-vacuno** (pollo/pavo): el **vacuno va solo en un almuerzo del fin de semana** (papilla), nunca en cena; **máximo 2×/semana** (entre BLW y papilla).
+- **Las papillas de cena son siempre no-vacuno** (pollo/pavo) **y rotan entre ellas: alterna pollo y pavo a lo largo de la semana — NO dejes las 7 cenas de una sola proteína.** El **vacuno va solo en un almuerzo del fin de semana** (papilla), nunca en cena; **máximo 2×/semana** (entre BLW y papilla).
 - **La papilla de legumbre va solo en horario de almuerzo** (fin de semana), nunca en cena.
 
 **Tanda nueva y stock:**
 - Se cocina **1 receta de papilla por semana, de tamaño igual al consumo (~9 porciones)** para mantener el **stock estable**: se consume **1 porción el mismo día o el siguiente** y **el resto se congela** como **stock de esa proteína** para las semanas siguientes.
-- Por eso, en una semana el bebé consume papillas de **proteínas variadas** sacadas del stock (no todas de la tanda nueva).
+- Por eso, en una semana el bebé consume papillas de **proteínas variadas** del stock (no todas de la tanda nueva): **rota las proteínas a lo largo de la semana, no repitas la misma muchos días seguidos.** Reparto típico: cenas alternando **pollo y pavo**, + un almuerzo de finde **vacuno** y otro **legumbre**.
 - **Stock inicial (asúmelo al empezar):** hay papillas de **pollo, carne (vacuno) y lentejas**.
 
 **Qué proteína se cocina / se consume:**
