@@ -36,23 +36,25 @@
 - **Desayuno compartido con la mujer:** mismos ingredientes, una sola preparación (ajustar textura para el bebé), cumpliendo a la vez las reglas de ambos (del bebé y el "sin azúcar añadido"/intolerancias de ella; ej. nada de tomate crudo). **Sin fruta en el desayuno.**
 - **Fruta del bebé = postre de almuerzo y cena** (1 porción, 100–150 g, según la pauta), no en el desayuno. Cubre el "frutas todos los días".
 - **BLW del bebé (fuera de la papilla):** se aparta de la comida familiar **antes de sazonar**, sin sal ni aliños fuertes (ej. **ajo**).
-  - **Pescado y huevo:** la papilla **no** los lleva y el fin de semana es todo papilla, así que el bebé los cubre con **BLW entre semana**.
+  - **Pescado:** la papilla **no** lo lleva; el bebé lo cubre con **BLW entre semana** (**2×**, p. ej. martes y jueves).
+  - **Huevo:** la papilla **tampoco** lo lleva; se cubre en el **desayuno compartido con la mujer** (**2×**, pan con huevo / tortilla adaptada), **no** en el almuerzo. Cuenta igual para la frecuencia de huevo de la pauta.
   - **Legumbres:** pueden venir como **BLW** de la **preparación de legumbres de los adultos** (fresca, o una **porción congelada** de esa misma preparación para otro día). Esto **NO es una papilla de legumbre**: no consume stock de papilla ni cuenta dentro de las ~9 papillas de la semana, pero **sí suma** a la frecuencia de legumbres del bebé.
 - **Papillas:** ver la política completa abajo.
 
 ### Papillas — stock, consumo y frecuencias (política)
 > Toda la **política** de papillas vive acá (en la dieta del bebé). La **receta y el método** para cocinar la tanda están en `receta_papilla`, que se consulta **solo cuando se planifica/cocina la papilla de la semana**.
 
-**Consumo semanal (~10 papillas):**
-- **Cena: papilla TODOS los días** (las 7 cenas de la semana). *(Regla del hogar.)*
-- **Sábado y domingo:** el **almuerzo también es papilla** (no se cocina; sale del stock) → +2.
-- **Lunes a viernes el almuerzo es BLW** adaptado de la comida familiar (es donde el bebé cubre pescado, huevo, etc.), **excepto una vez entre lunes y miércoles, que es una papilla de carne (vacuno)** en lugar de BLW.
-- **Las papillas de cena son siempre no-vacuno** (pollo/pavo) **y rotan entre ellas: alterna pollo y pavo a lo largo de la semana — NO dejes las 7 cenas de una sola proteína.** La **papilla de vacuno va una vez entre lunes y miércoles**, en **almuerzo** (nunca en cena); **máximo 2×/semana** de vacuno (entre BLW y papilla).
-- **La papilla de legumbre va solo en horario de almuerzo** (fin de semana), nunca en cena.
+**Consumo semanal:**
+- **Cena: papilla TODOS los días** (las 7 cenas). *(Regla del hogar.)* **Distribución de cenas:** lun–vie = **1 vacuno + 1 legumbre + 3 pollo/pavo**; sábado y domingo = **2 pollo/pavo**.
+- **Almuerzos:** **lunes a viernes son BLW** adaptado de la comida familiar (es donde el bebé cubre el **pescado**, 2× entre semana), **excepto el lunes, cuyo almuerzo es papilla de legumbre**. **Sábado y domingo el almuerzo también es papilla** (no se cocina; sale del stock): **sábado = vacuno, domingo = pollo/pavo**.
+- **Pollo/pavo rotan entre ellos** a lo largo de la semana — alterna pollo y pavo; **NO dejes todas las papillas de una sola proteína.**
+- **Vacuno:** **máximo 2×/semana** — **1 cena (lun–vie) + 1 almuerzo de finde**. **Puede ir en cena** (se levanta la regla vieja de "vacuno solo en almuerzo, nunca cena").
+- **Legumbre:** **puede ir en cena** (1 cena lun–vie) y en almuerzo (lunes). Las legumbres del bebé salen de la **preparación de legumbres de los adultos**, **NO** del stock de papilla de carne: **no son "papillas reales"** ni consumen stock, pero **sí suman** a la frecuencia de legumbres.
 
-**Tanda nueva y stock:**
-- Se cocina **1 receta de papilla por semana, de tamaño igual al consumo (~9 porciones)** para mantener el **stock estable**: se consume **1 porción el mismo día o el siguiente** y **el resto se congela** como **stock de esa proteína** para las semanas siguientes.
-- Por eso, en una semana el bebé consume papillas de **proteínas variadas** del stock (no todas de la tanda nueva): **rota las proteínas a lo largo de la semana, no repitas la misma muchos días seguidos.** Reparto típico: 7 cenas alternando **pollo y pavo**; **1 papilla de vacuno** en un almuerzo de **lun–mié**; y los 2 almuerzos de finde, uno **legumbre** y otro pollo/pavo.
+**Papillas reales (de carne), tanda nueva y stock:**
+- Las **papillas reales** son las de **vacuno/pollo/pavo** (las legumbres NO cuentan acá). Con la distribución de arriba son **8 por semana** (6 cenas de carne + sábado vacuno + domingo pollo/pavo).
+- Se cocina **1 tanda por semana, de tamaño igual al consumo de papillas reales (~8 porciones)** para mantener el **stock estable**: se consume **1 porción el mismo día o el siguiente** y **el resto se congela** como **stock de esa proteína**. La tanda es de **una sola** proteína (rota cada semana; qué proteína se repone lo definen esta política y la `bitacora`).
+- Por eso, en una semana el bebé consume papillas de **proteínas variadas** del stock (no todas de la tanda nueva): **rota las proteínas, no repitas la misma muchos días seguidos.**
 - **Stock inicial (asúmelo al empezar):** hay papillas de **pollo, carne (vacuno) y lentejas**.
 
 **Qué proteína se cocina / se consume:**
@@ -64,6 +66,6 @@
 - **Cuota semanal + rotación pareja, sin topes por día.** Reparte las proteínas parejo en la semana, sin que una categoría copie. **Se pueden repetir comidas** (la misma preparación puede servir varias comidas o días); no es obligatorio variar todos los platos.
 - **Pescado: solo se cocina 1 preparación de pescado por semana** (no es límite de consumo — esa preparación se puede repetir al comer). El resto de las preparaciones principales rota legumbres y huevo.
 - **Mujer:** equilibra pescado, legumbres, huevo y **atún** (trata "atún con mayo" como categoría aparte del huevo). **Del pescado se cocina solo 1 preparación a la semana** (puede repetirse al comer). En las **cenas**, rota parejo entre **huevo duro, atún con mayo y tortilla** (cuando se "agota" una en la semana, pasa a la siguiente; no cargar al huevo).
-- **Bebé:** balancea según las frecuencias de su pauta y **verifica que cumpla el mínimo de cada grupo**. **Regla dura: vacuno máximo 2×/semana.**
+- **Bebé:** balancea según las frecuencias de su pauta y **verifica que cumpla el mínimo de cada grupo**, contando **todo** lo que come: papillas + BLW (pescado) + **huevo del desayuno**. **Regla dura: vacuno máximo 2×/semana.**
 - **Hombre:** varía la carne (vacuno, pollo, pavo, cerdo); no repitas la misma 2 días seguidos.
 - Alterna estilo **chileno/asiático**.
