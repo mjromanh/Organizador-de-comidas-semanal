@@ -47,9 +47,9 @@ Las reglas del hogar viven en esos archivos; no las dupliques en la respuesta. A
 
 ### 3. Plan de cocina (qué se cocina cada día)
 
-**Instrucciones:** para cada día de cocina, las preparaciones con ingredientes e instrucciones paso a paso, en un orden que aproveche el tiempo y quepa en la sesión. Usa **cantidades exactas** (g / tazas / unidades / latas), **sin rangos ambiguos** (no "2 o 3 tazas"): define el número y explícita de qué lleva cada preparación (ej. "tortilla: 6 huevos + 1 lata de atún + 1 zanahoria + 1 taza de espinaca") y **cuánta proteína** se cocina por comensal.
+**Instrucciones:** para cada día de cocina, las preparaciones con ingredientes e instrucciones paso a paso, en un orden que aproveche el tiempo y quepa en la sesión. **Cada ingrediente de cada receta lleva su cantidad — en unidades o gramos, idealmente en gramos** (ej. "tortilla: 6 huevos + 1 lata de atún (160 g) + 1 zanahoria (~80 g) + 100 g de espinaca"). **Nada sin cantidad y sin rangos ambiguos** (no "2 o 3 tazas"). Indica también **cuánta proteína** se cocina por comensal.
 **Referencia:** `organizacion_hogar` (días, tiempos, equipos), `receta_papilla`.
-**Verificaciones clave:** cada sesión cabe en su tope de tiempo (si no, versión más corta o alternativa rápida); recetas claras y ejecutivas, paso a paso, **con cantidades exactas**.
+**Verificaciones clave:** cada sesión cabe en su tope de tiempo (si no, versión más corta o alternativa rápida); recetas claras y ejecutivas, paso a paso, **con la cantidad de cada ingrediente (idealmente en gramos)**.
 **Formato de entrega:** por día de cocina, lista ordenada de preparaciones con su receta.
 
 ### 4. Guardado (qué se guarda y dónde)
