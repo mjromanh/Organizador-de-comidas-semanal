@@ -33,9 +33,9 @@ Las reglas del hogar viven en esos archivos; no las dupliques en la respuesta. A
 
 ### 1. Menú semanal
 
-**Instrucciones:** diseña el menú de la semana completa, ramificando por comensal según su dieta y cobertura. Rota las proteínas parejo. Consulta `bitacora` para no repetir preparaciones ni combinaciones recientes.
+**Instrucciones:** diseña el menú de la semana completa, ramificando por comensal según su dieta y cobertura. **Rota las proteínas parejo por categoría** (vacuno, pollo, pavo/cerdo, pescado, legumbres, huevo…): no cargues la misma proteína en días seguidos, **incluido el fin de semana**. Consulta `bitacora` para no repetir preparaciones ni combinaciones recientes.
 **Referencia:** `perfiles_dieta`, `pauta_nutricionista_bebe`, `organizacion_hogar`, `platos_de_referencia`, `bitacora`.
-**Verificaciones clave:** cada comensal cumple las frecuencias y reglas duras de su dieta (cuéntalas y repórtalas); las proteínas quedan balanceadas y rotadas parejo; las verduras se nombran concretas (no "sopa verde"); se respeta cualquier verificación específica que defina la dieta de cada comensal.
+**Verificaciones clave:** cada comensal cumple las frecuencias y reglas duras de su dieta (cuéntalas y repórtalas); las proteínas quedan balanceadas y **rotadas por categoría** (revisa que no se repita la misma proteína 2 días seguidos, no solo que no se repita el mismo plato); las verduras se nombran concretas (no "sopa verde"); se respeta cualquier verificación específica que defina la dieta de cada comensal.
 **Formato de entrega:** tabla `Día | Comida | Plato base | [una columna por comensal]`, una fila por día desde el inicio del ciclo hasta el día previo a que se vuelva a cocinar; debajo, el resumen de frecuencias por comensal con su verificación.
 
 ### 2. Lista de compras
