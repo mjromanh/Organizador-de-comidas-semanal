@@ -37,7 +37,7 @@
 - **Fruta del bebé = postre de almuerzo y cena** (1 porción, 100–150 g, según la pauta), no en el desayuno. Cubre el "frutas todos los días".
 - **BLW del bebé (fuera de la papilla):** se aparta de la comida familiar **antes de sazonar**, sin sal ni aliños fuertes (ej. **ajo**).
   - **Pescado:** la papilla **no** lo lleva; el bebé lo cubre con **BLW entre semana** (**2×**, p. ej. martes y jueves).
-  - **Huevo:** la papilla **tampoco** lo lleva; se cubre en el **desayuno compartido con la mujer** (**2×**, pan con huevo / tortilla adaptada), **no** en el almuerzo. Cuenta igual para la frecuencia de huevo de la pauta.
+  - **Huevo:** la papilla **tampoco** lo lleva; se cubre con **BLW** — **2× en almuerzo entre semana** (p. ej. miércoles y viernes) **+ 1× el sábado** (p. ej. pan con huevo al desayuno) → **3×**. Cuenta para la frecuencia de huevo de la pauta.
   - **Legumbres:** pueden venir como **BLW** de la **preparación de legumbres de los adultos** (fresca, o una **porción congelada** de esa misma preparación para otro día). Esto **NO es una papilla de legumbre**: no consume stock de papilla ni cuenta dentro de las ~9 papillas de la semana, pero **sí suma** a la frecuencia de legumbres del bebé.
 - **Papillas:** ver la política completa abajo.
 
@@ -46,7 +46,7 @@
 
 **Consumo semanal:**
 - **Cena: papilla TODOS los días** (las 7 cenas). *(Regla del hogar.)* **Distribución de cenas:** lun–vie = **1 vacuno + 1 legumbre + 3 pollo/pavo**; sábado y domingo = **2 pollo/pavo**.
-- **Almuerzos:** **lunes a viernes son BLW** adaptado de la comida familiar (es donde el bebé cubre el **pescado**, 2× entre semana), **excepto el lunes, cuyo almuerzo es papilla de legumbre**. **Sábado y domingo el almuerzo también es papilla** (no se cocina; sale del stock): **sábado = vacuno, domingo = pollo/pavo**.
+- **Almuerzos:** **lunes a viernes son BLW** adaptado de la comida familiar (donde el bebé cubre **pescado 2×** y **huevo 2×** — p. ej. mar/jue pescado, mié/vie huevo), **excepto el lunes, cuyo almuerzo es papilla de legumbre**. **Sábado y domingo el almuerzo también es papilla** (no se cocina; sale del stock): **sábado = vacuno, domingo = pollo/pavo**. **Huevo además 1× el sábado** (BLW, p. ej. pan con huevo al desayuno) → **huevo 3× total**.
 - **Pollo/pavo rotan entre ellos** a lo largo de la semana — alterna pollo y pavo; **NO dejes todas las papillas de una sola proteína.**
 - **Vacuno:** **máximo 2×/semana** — **1 cena (lun–vie) + 1 almuerzo de finde**. **Puede ir en cena** (se levanta la regla vieja de "vacuno solo en almuerzo, nunca cena").
 - **Legumbre:** **puede ir en cena** (1 cena lun–vie) y en almuerzo (lunes). Las legumbres del bebé salen de la **preparación de legumbres de los adultos**, **NO** del stock de papilla de carne: **no son "papillas reales"** ni consumen stock, pero **sí suman** a la frecuencia de legumbres.
@@ -66,6 +66,6 @@
 - **Cuota semanal + rotación pareja, sin topes por día.** Reparte las proteínas parejo en la semana, sin que una categoría copie. **Se pueden repetir comidas** (la misma preparación puede servir varias comidas o días); no es obligatorio variar todos los platos.
 - **Pescado: solo se cocina 1 preparación de pescado por semana** (no es límite de consumo — esa preparación se puede repetir al comer). El resto de las preparaciones principales rota legumbres y huevo.
 - **Mujer:** equilibra pescado, legumbres, huevo y **atún** (trata "atún con mayo" como categoría aparte del huevo). **Del pescado se cocina solo 1 preparación a la semana** (puede repetirse al comer). En las **cenas**, rota parejo entre **huevo duro, atún con mayo y tortilla** (cuando se "agota" una en la semana, pasa a la siguiente; no cargar al huevo).
-- **Bebé:** balancea según las frecuencias de su pauta y **verifica que cumpla el mínimo de cada grupo**, contando **todo** lo que come: papillas + BLW (pescado) + **huevo del desayuno**. **Regla dura: vacuno máximo 2×/semana.**
+- **Bebé:** balancea según las frecuencias de su pauta y **verifica que cumpla el mínimo de cada grupo**, contando **todo** lo que come: papillas + BLW (**pescado y huevo**). **Regla dura: vacuno máximo 2×/semana.**
 - **Hombre:** varía la carne (vacuno, pollo, pavo, cerdo); no repitas la misma 2 días seguidos.
 - Alterna estilo **chileno/asiático**.
