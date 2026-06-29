@@ -37,21 +37,21 @@
 - **Fruta del bebé = postre de almuerzo y cena** (1 porción, 100–150 g, según la pauta), no en el desayuno. Cubre el "frutas todos los días".
 - **BLW del bebé (fuera de la papilla):** se aparta de la comida familiar **antes de sazonar**, sin sal ni aliños fuertes (ej. **ajo**).
   - **Pescado y huevo:** la papilla **no** los lleva y el fin de semana es todo papilla, así que el bebé los cubre con **BLW entre semana**.
-  - **Legumbres:** pueden venir como **BLW** de la **preparación de legumbres de los adultos** (fresca, o una **porción congelada** de esa misma preparación para otro día). Esto **NO es una papilla de legumbre**: no consume stock de papilla ni cuenta dentro de las ~6 papillas de la semana, pero **sí suma** a la frecuencia de legumbres del bebé.
+  - **Legumbres:** pueden venir como **BLW** de la **preparación de legumbres de los adultos** (fresca, o una **porción congelada** de esa misma preparación para otro día). Esto **NO es una papilla de legumbre**: no consume stock de papilla ni cuenta dentro de las ~9 papillas de la semana, pero **sí suma** a la frecuencia de legumbres del bebé.
 - **Papillas:** ver la política completa abajo.
 
 ### Papillas — stock, consumo y frecuencias (política)
 > Toda la **política** de papillas vive acá (en la dieta del bebé). La **receta y el método** para cocinar la tanda están en `receta_papilla`, que se consulta **solo cuando se planifica/cocina la papilla de la semana**.
 
-**Consumo semanal (~6 papillas):**
-- **Sábado y domingo:** se **almuerza y se cena papilla** (4 papillas).
-- **Lunes a viernes:** se usan **2 papillas** en total; el resto de las comidas de esos días es **BLW** adaptado de la comida familiar.
-- **Un almuerzo del sábado o domingo es de vacuno.**
-- **Si toca papilla de legumbre, va siempre en horario de almuerzo** (nunca en cena).
-- **Vacuno:** solo en **almuerzo, nunca en cena**; máximo 2×/semana (entre BLW y papilla).
+**Consumo semanal (~9 papillas):**
+- **Cena: papilla TODOS los días** (las 7 cenas de la semana). *(Regla del hogar.)*
+- **Sábado y domingo:** el **almuerzo también es papilla** (no se cocina; sale del stock) → +2.
+- **Lunes a viernes el almuerzo es BLW** adaptado de la comida familiar (es donde el bebé cubre pescado, huevo, etc.).
+- **Las papillas de cena son siempre no-vacuno** (pollo/pavo): el **vacuno va solo en un almuerzo del fin de semana** (papilla), nunca en cena; **máximo 2×/semana** (entre BLW y papilla).
+- **La papilla de legumbre va solo en horario de almuerzo** (fin de semana), nunca en cena.
 
 **Tanda nueva y stock:**
-- Se cocina **1 receta de papilla por semana** (6 porciones): se consume **1 porción el mismo día o el siguiente** y **las otras 5 se congelan** como **stock de esa proteína** para las semanas siguientes.
+- Se cocina **1 receta de papilla por semana, de tamaño igual al consumo (~9 porciones)** para mantener el **stock estable**: se consume **1 porción el mismo día o el siguiente** y **el resto se congela** como **stock de esa proteína** para las semanas siguientes.
 - Por eso, en una semana el bebé consume papillas de **proteínas variadas** sacadas del stock (no todas de la tanda nueva).
 - **Stock inicial (asúmelo al empezar):** hay papillas de **pollo, carne (vacuno) y lentejas**.
 
