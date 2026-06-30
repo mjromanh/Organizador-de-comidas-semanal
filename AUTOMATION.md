@@ -63,8 +63,10 @@ mjromanh/Organizador-de-comidas-semanal.
   puedes simplificar el paso 1.
 - **Cadencia y ciclo:** corre el **lunes**; el plan generado es para el ciclo que empieza el
   **martes siguiente** (un día después), que es justo cuando llegan las compras.
-- **Cierre de semana:** `cerrar-semana` (bitácora) se puede dejar como otra routine semanal
-  (p. ej. lunes más tarde), o seguir corriéndola a mano. A definir.
+- **Cierre de semana (automático):** `cerrar-semana` **ya corre solo** como **paso 2** de
+  esta misma Routine, cada lunes, **antes** de planificar: registra en `bitacora.md` las
+  preparaciones de la semana que terminó para que la nueva no las repita. No hay que correrlo
+  a mano. *(En la primera corrida, al no haber semana previa, el paso se salta solo.)*
 - **Gestión:** pausar, editar el prompt o el horario, y ver cada corrida desde la misma
   página de la routine. Cada corrida queda como una sesión que puedes abrir y revisar.
 ```
