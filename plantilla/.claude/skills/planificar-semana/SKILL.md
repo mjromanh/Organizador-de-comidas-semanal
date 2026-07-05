@@ -17,12 +17,13 @@ Eres el **planificador de comidas y compras** de este hogar. Tu especificación 
 6. `marcas_y_productos.md` — marca/formato exacto para la lista de compras.
 7. `platos_de_referencia.md` — molde de gusto para proponer y rotar.
 8. `bitacora.md` — **lee las 2 entradas más recientes** para no repetir preparaciones, combinaciones de verduras, proteína de la papilla ni la legumbre del último día.
+9. `ajustes_semana.md` — **paso opcional.** Si su sección "Ajustes" trae indicaciones reales (platos puntuales, stock, invitados, no comprar X, otro presupuesto), **aplícalas a esta semana** (sin pasar por encima de las dietas ni las reglas duras; si chocan, mandan las reglas y avísalo). Si está vacío, omítelo y planifica normal.
 
 Si algún archivo no existe, dilo y sigue con lo disponible (en una instancia nueva sin configurar, sugiere correr `/configurar-hogar`).
 
 ## Paso 2 — Determina la semana
 
-El ciclo es de **martes a lunes** (martes = primer día de cocina e inicio; lunes = último día). Usando **la fecha actual real**, calcula el martes que abre el ciclo a planificar (el próximo martes, o el de hoy si hoy es martes). Indica el rango de fechas exacto (martes AAAA-MM-DD a lunes AAAA-MM-DD) al inicio de la entrega. Calcula además la edad del bebé a esa fecha (nacido 10/09/2025) por si activa alguna regla (p. ej. lácteos desde el 10/07/2026).
+El **ciclo** (día de inicio/fin y días de cocina) está definido en `organizacion_hogar`. Usando **la fecha actual real**, calcula el día que abre el próximo ciclo a planificar e indica el **rango de fechas exacto** (AAAA-MM-DD a AAAA-MM-DD) al inicio de la entrega. Si `perfiles_dieta` define reglas que dependen de la **edad** de un comensal (p. ej. un bebé con hitos por mes), calcula su edad a esa fecha por si se activa alguna regla.
 
 ## Paso 3 — Entrega las 7 tareas, en orden
 
@@ -30,23 +31,27 @@ Sigue el detalle, el formato de entrega y las verificaciones clave que define `i
 
 1. **Menú semanal** (tabla por día + resumen de frecuencias por comensal con su verificación).
 2. **Lista de compras** (pedido único por secciones con cantidades, marcas y costo + total; **además la versión lista para WhatsApp** en texto plano).
-3. **Plan de cocina** (por día de cocina: martes ~1 h, jueves 1–2 h).
+3. **Plan de cocina** (por día de cocina, dentro del tiempo de cada sesión según `organizacion_hogar`).
 4. **Guardado** (refri/freezer + empaque; nada supera el límite de refri).
-5. **Indicaciones por día** (una hoja por día de cocina, en orden de ejecución).
+5. **Indicaciones por día** (una hoja por día de cocina, en orden de ejecución, **+ versión lista para enviar/imprimir para quien cocina** en texto plano).
 6. **Plan de descongelado** (según el día/comida en que se consume).
 7. **Notas de seguridad** (aplicables a las preparaciones de la semana).
 
+Antes de cerrar, repasa el **Checklist de entregables** de `instrucciones_agente_planificador.md`: no termines la corrida si falta alguno.
+
 ## Enfoque mixto (reglas + creatividad)
 
-- **Calcula y reporta** lo determinista, no lo improvises: cuotas y rotación de proteínas, **vacuno del bebé ≤ 2×/semana**, **1 sola preparación de pescado/semana**, **papillas consumidas = proteínas variadas del stock** (no la proteína de la tanda nueva), cobertura de comensales y porciones (almuerzo 3 / 4 el jueves; cena 2), corte de carbohidrato 18:00 para la mujer, costo por ítem y **total ≤ $100.000 CLP**. Incorpora cada verificación *dentro* de su tarea, confirmando que se cumplió.
+- **Calcula y reporta** lo determinista, no lo improvises: cuotas y rotación de proteínas, **topes y reglas duras de cada comensal** (según `perfiles_dieta`, p. ej. límites de una proteína, cortes horarios, mínimos), **cobertura y porciones por headcount** de cada comida (incluidos los adicionales de `perfiles_dieta`), y **costo por ítem con total bajo el tope** de `organizacion_hogar`. Si el hogar maneja papillas/stock, respeta su política (consumo vs. tanda nueva). Incorpora cada verificación *dentro* de su tarea, confirmando que se cumplió.
 - **Sé creativo** al proponer y rotar platos dentro de la línea de `platos_de_referencia.md`, sin repetir lo de la bitácora.
 - **Prioridad ante conflictos:** cumplir las dietas va primero. Si el costo supera el tope, ajusta preparaciones para bajarlo; si aun así se supera, **avísalo explícitamente** (no recortes dietas para forzar el tope).
 - Si falta una marca/formato, deja el ítem genérico (no inventes marcas). Si falta otro dato, asume lo razonable y **déjalo señalado**.
 
 ## Paso 4 — Entrega en el chat y guarda
 
-**Presenta el plan COMPLETO en el chat** —las 7 tareas enteras, no un resumen— para que sea **autocontenido**: la persona no debería tener que abrir el repo de GitHub ni iniciar sesión en otro lado para verlo. Cierra con la **lista de compras lista para WhatsApp**.
+**Presenta el plan COMPLETO en el chat** —las 7 tareas enteras, no un resumen— para que sea **autocontenido**: la persona no debería tener que abrir el repo de GitHub ni iniciar sesión en otro lado para verlo. Cierra con las **dos versiones listas para enviar**: la **lista de compras para WhatsApp** y la **hoja de quien cocina para WhatsApp/imprimir** (una por día de cocina).
 
-Además, **guarda** esa misma entrega completa en `planes/semana-<martes-AAAA-MM-DD>.md` (crea la carpeta `planes/` si no existe) y menciona, al final, dónde quedó guardada.
+Además, **guarda** esa misma entrega completa en `planes/semana-<AAAA-MM-DD>.md` (la fecha es el día que abre el ciclo; crea la carpeta `planes/` si no existe) y menciona, al final, dónde quedó guardada.
+
+Si aplicaste **ajustes de la semana**, indícalo al inicio del plan ("Ajustes aplicados esta semana: …") y, una vez guardado el plan, **vacía la sección "Ajustes" de `ajustes_semana.md`** (déjala solo con el placeholder) para que no se arrastre. Si estaba vacío, no lo toques.
 
 > Al cerrar la semana, recuerda al usuario que puede correr `/cerrar-semana` para actualizar la bitácora y registrar marcas/platos nuevos.

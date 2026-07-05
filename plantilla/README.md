@@ -63,6 +63,10 @@ Para que el plan se genere **solo cada semana**, queda un último paso (crear un
   `platos_de_referencia.md`, `bitacora.md`, y —si aplica— `pauta_nutricionista_bebe.md` y
   `receta_papilla.md`.
 
+**Opcional (para ajustar una semana puntual):**
+- `ajustes_semana.md` — deja aquí pedidos para el próximo plan (un plato, qué hay en stock,
+  invitados, no comprar X, otro presupuesto). Vacío = se planifica normal; se borra solo tras usarse.
+
 **Salidas:**
 - `planes/` — los planes semanales generados.
 

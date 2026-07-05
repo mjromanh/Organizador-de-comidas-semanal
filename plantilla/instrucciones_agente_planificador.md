@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Planifica las comidas y las compras de una semana para un hogar, sobre una base común que se adapta por comensal cuando hay dietas distintas. Entrega: menú, lista de compras, plan de cocina, guardado, plan de descongelado y notas de seguridad.
+Planifica las comidas y las compras de una semana para un hogar, sobre una base común que se adapta por comensal cuando hay dietas distintas. Entrega **7 partes, todas obligatorias**: (1) **menú** —incluye desayunos—, (2) **lista de compras** —con versión lista para WhatsApp—, (3) **plan de cocina**, (4) **guardado**, (5) **indicaciones por día para quien cocina** —con versión lista para enviar/imprimir—, (6) **plan de descongelado** y (7) **notas de seguridad**. Ninguna se omite; ver el **Checklist de entregables** al final.
 
 ## Archivos de referencia (léelos antes de planificar)
 
@@ -13,12 +13,14 @@ Planifica las comidas y las compras de una semana para un hogar, sobre una base 
 - `marcas_y_productos` — marcas y formatos a usar en la lista de compras.
 - `platos_de_referencia` — molde de gusto; base para proponer y rotar.
 - `bitacora` — preparaciones de las últimas semanas, para no repetir.
+- `ajustes_semana` — **indicaciones opcionales para el plan de ESTA semana** (platos puntuales, qué hay en stock, invitados, algo que no comprar, presupuesto distinto…). Si su sección "Ajustes" tiene contenido, aplícalo esta semana; si está vacío, omítelo.
 
 Las reglas del hogar viven en esos archivos; no las dupliques en la respuesta. Aplícalas.
 
 ## Principios generales (transversales a todas las tareas)
 
 - Planifica una semana completa: un ciclo, un pedido único de compras. La semana empieza el primer día de cocina y cubre los 7 días siguientes.
+- **Ajustes de la semana (opcional):** al empezar, lee `ajustes_semana`. Si su sección "Ajustes" trae indicaciones reales (más allá del placeholder/comentario), **aplícalas a esta semana** (p. ej. un plato puntual, usar algo del stock, invitados, no comprar X, otro presupuesto). **No reemplazan las reglas duras ni las dietas:** si un ajuste choca con una regla dura o dieta, mandan las reglas y avísalo en el plan. Si aplicaste ajustes, indícalo al inicio del plan ("Ajustes aplicados esta semana: …"). Si la sección está vacía, se omite y se planifica normal.
 - Base común: cuando los comensales tienen dietas distintas, cocina siempre una base compartida y ramifica solo lo necesario (típicamente la proteína) por comensal; evita menús separados.
 - **Dimensiona las cantidades para TODOS los comensales de cada comida**, no solo el núcleo: incluye los **adicionales** según `perfiles_dieta` (p. ej. +1 algunos almuerzos, +2 otro). Cuenta cabezas por comida antes de fijar gramos/porciones.
 - Optimiza el costo siempre; respeta el tope de presupuesto definido en `organizacion_hogar`. Temporada y buen precio.
@@ -33,10 +35,10 @@ Las reglas del hogar viven en esos archivos; no las dupliques en la respuesta. A
 
 ### 1. Menú semanal
 
-**Instrucciones:** diseña el menú de la semana completa, ramificando por comensal según su dieta y cobertura. **Rota las proteínas parejo por categoría** (vacuno, pollo, pavo/cerdo, pescado, legumbres, huevo…): no cargues la misma proteína en días seguidos, **incluido el fin de semana**. Consulta `bitacora` para no repetir preparaciones ni combinaciones recientes.
+**Instrucciones:** diseña el menú de la semana completa, ramificando por comensal según su dieta y cobertura. **Rota las proteínas parejo por categoría** (vacuno, pollo, pavo/cerdo, pescado, legumbres, huevo…): no cargues la misma proteína en días seguidos, **incluido el fin de semana**. Consulta `bitacora` para no repetir preparaciones ni combinaciones recientes. **Incluye TODAS las comidas que cubre cada comensal**, incluido el **desayuno** de quien desayuna: no omitas el desayuno del menú. Si algún comensal come por **BLW/papilla** (p. ej. un bebé), **cada una de sus comidas se arma con la estructura de plato de la pauta**: proteína + 1 carbohidrato + ≥3 verduras de colores + fruta de postre. No basta con nombrar la proteína (no escribas "BLW huevo" a secas: detalla su carbohidrato, sus verduras y su fruta).
 **Referencia:** `perfiles_dieta`, `pauta_nutricionista_bebe`, `organizacion_hogar`, `platos_de_referencia`, `bitacora`.
-**Verificaciones clave:** cada comensal cumple las frecuencias y reglas duras de su dieta (cuéntalas y repórtalas); las proteínas quedan balanceadas y **rotadas por categoría** (revisa que no se repita la misma proteína 2 días seguidos, no solo que no se repita el mismo plato); las verduras se nombran concretas (no "sopa verde"); se respeta cualquier verificación específica que defina la dieta de cada comensal.
-**Formato de entrega:** tabla `Día | Comida | Plato base | [una columna por comensal]`, una fila por día desde el inicio del ciclo hasta el día previo a que se vuelva a cocinar; debajo, el resumen de frecuencias por comensal con su verificación.
+**Verificaciones clave:** cada comensal cumple las frecuencias y reglas duras de su dieta (cuéntalas y repórtalas); las proteínas quedan balanceadas y **rotadas por categoría** (revisa que no se repita la misma proteína 2 días seguidos, no solo que no se repita el mismo plato); **el desayuno está presente** para quien desayuna; **cada comida por BLW/papilla trae carbohidrato + ≥3 verduras + fruta** (no solo la proteína); las verduras se nombran concretas (no "sopa verde"); se respeta cualquier verificación específica que defina la dieta de cada comensal.
+**Formato de entrega:** tabla `Día | Comida | Plato base | [una columna por comensal]`, con filas de **desayuno, almuerzo y cena** según corresponda (incluye una sección o filas de desayuno para quien desayuna), una fila por comida desde el inicio del ciclo hasta el día previo a que se vuelva a cocinar; debajo, el resumen de frecuencias por comensal con su verificación.
 
 ### 2. Lista de compras
 
@@ -62,7 +64,7 @@ Las reglas del hogar viven en esos archivos; no las dupliques en la respuesta. A
 ### 5. Indicaciones por día para quien cocina y guarda
 
 **Instrucciones:** consolida las tareas 3 y 4 en una hoja por cada día de cocina. La hoja contempla **ambas cosas con claridad**: (1) **Preparar** — qué cocinar, en qué orden y con **cantidades exactas**; y (2) **Guardar** — distinguiendo siempre las **dos variables**: **(a) lo que queda en la casa** y **(b) lo que va a la oficina**, y para **cada una** si va a **refri o a freezer** (y hasta cuándo). Lenguaje claro, paso a paso.
-**Formato de entrega:** una hoja por día de cocina, en orden de ejecución, con dos bloques: **Preparar** y **Guardar (casa / oficina → refri o freezer)**.
+**Formato de entrega:** una hoja por día de cocina, en orden de ejecución, con dos bloques: **Preparar** y **Guardar (casa / oficina → refri o freezer)**. **Además, una versión lista para enviar/imprimir para quien cocina** por cada día de cocina (texto plano tipo WhatsApp): pasos numerados con cantidades, los recordatorios de **apartar la porción de cualquier comensal que lo requiera antes de sazonar** (p. ej. un bebé: sin sal/aliños fuertes), y el bloque de guardado (casa/oficina → refri/freezer). Igual que la lista de compras tiene su versión WhatsApp, quien cocina tiene la suya.
 
 ### 6. Plan de descongelado
 
@@ -85,6 +87,21 @@ Las reglas del hogar viven en esos archivos; no las dupliques en la respuesta. A
 - Si falta otro dato y no hay regla por defecto, asume lo más razonable y déjalo **señalado** en la entrega; no inventes datos del hogar.
 - No dupliques en la respuesta reglas que ya viven en los archivos.
 - Incorpora la verificación de cada tarea dentro de su entrega (no como checklist suelto al final): confirma que cada verificación clave se cumplió.
+- **Vacía `ajustes_semana` después de usarlo:** una vez generado el plan, deja su sección "Ajustes" vacía (solo el placeholder), para que no se arrastre a la próxima semana. Si ya estaba vacío, no lo toques.
+
+## Checklist de entregables (no cierres la corrida sin TODOS)
+
+Antes de dar por terminada la planificación, verifica que la entrega —**tanto en el chat como en el archivo guardado en `planes/`**— tenga las 7 partes completas. Si falta o está a medias, complétala antes de cerrar:
+
+1. ☐ **Menú** — desayuno + almuerzo + cena, **todos los comensales y días**; comidas por BLW/papilla estructuradas (proteína + 1 carbohidrato + ≥3 verduras de colores + fruta); **resumen de frecuencias por comensal con su verificación**.
+2. ☐ **Lista de compras** — por secciones, con **cantidades**, marcas/formato, costo por ítem, **subtotales**, **total = suma real** bajo el tope; **+ versión lista para WhatsApp**.
+3. ☐ **Plan de cocina** — por día de cocina, pasos con **cantidad de cada ingrediente**; cabe en el tiempo de la sesión.
+4. ☐ **Guardado** — cada preparación con destino (refri/freezer), casa vs. oficina, y hasta cuándo; nada supera el límite de refri.
+5. ☐ **Indicaciones por día para quien cocina** — hoja Preparar + Guardar por día de cocina; **+ versión lista para enviar/imprimir** (WhatsApp) por día de cocina, con los recordatorios de apartar la porción de quien lo requiera.
+6. ☐ **Plan de descongelado** — todo lo marcado a freezer, según el día/comida en que se consume.
+7. ☐ **Notas de seguridad** — las aplicables a las preparaciones de la semana.
+
+El archivo guardado en `planes/` debe ser **idéntico y autocontenido** (incluye las versiones WhatsApp de compras y de la cocina): quien lo abra no debería necesitar nada más.
 
 ## Mejora continua (cierre de semana)
 

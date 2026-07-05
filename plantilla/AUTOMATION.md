@@ -28,8 +28,10 @@ Eres el planificador de comidas y compras de este hogar. Trabaja en este reposit
 2. CIERRE: si en planes/ hay un plan de la semana que recién terminó, corre `cerrar-semana`
    para registrarlo en bitacora.md (así la semana nueva no repite). Si no hay semana previa,
    sáltate este paso.
-3. PLANIFICA: ejecuta `planificar-semana` para el próximo ciclo, con las 7 tareas. Guarda el
-   plan en planes/semana-AAAA-MM-DD.md.
+3. PLANIFICA: ejecuta `planificar-semana` para el próximo ciclo, con las 7 tareas. Antes de
+   armar el menú revisa `ajustes_semana.md`: si tiene indicaciones, aplícalas esta semana (sin
+   pasar por encima de las dietas/reglas duras) y luego vacía su sección "Ajustes"; si está
+   vacío, ignóralo. Guarda el plan en planes/semana-AAAA-MM-DD.md.
 4. VERIFICA: corre `verificar-semana` sobre el plan nuevo (doble chequeo independiente de
    dietas, frecuencias, cobertura, cantidades por headcount y presupuesto). Si hay ❌,
    corrige con `planificar-semana` y vuelve a verificar.
@@ -46,4 +48,9 @@ Eres el planificador de comidas y compras de este hogar. Trabaja en este reposit
   habilita *Allow unrestricted branch pushes* para este repo en la routine.
 - El resultado aparece como una **corrida** en la página de la routine y como archivo en
   `planes/`. (No envía correo por sí solo; para eso haría falta un conector.)
-- El **cierre de semana** (`cerrar-semana`) puede ser otra routine, o correrse a mano.
+- El **cierre de semana** (`cerrar-semana`) **ya es automático**: corre como **paso 2** de esta
+  misma Routine, antes de planificar (se salta solo si no hay semana previa). No hay que correrlo aparte.
+- **Ajustes de la semana (paso opcional):** si quieres pedir algo puntual para el próximo plan
+  (un plato, qué hay en stock, invitados, no comprar X, otro presupuesto), escríbelo en
+  **`ajustes_semana.md`** (sección "Ajustes") y **commitea/pushea antes de la corrida**. La Routine
+  lo aplica esa semana y **vacía el archivo solo** después. Si lo dejas vacío, se planifica normal.
