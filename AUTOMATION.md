@@ -29,33 +29,37 @@ viva y **expira a los 7 días**. Una **Routine** corre en infraestructura de Ant
 
 ```
 Eres el planificador de comidas y compras de este hogar. Trabaja en el repositorio
-mjromanh/Organizador-de-comidas-semanal.
+mjromanh/Organizador-de-comidas-semanal, rama claude/magical-franklin-136dag (es la rama
+por defecto; ahí viven las skills y los archivos de referencia).
 
-1. Ponte en la rama del proyecto (ahí viven las skills y los 8 archivos de referencia):
+1. Ponte en esa rama y con lo último:
    git fetch origin claude/magical-franklin-136dag
    git checkout claude/magical-franklin-136dag
    git pull origin claude/magical-franklin-136dag
 
 2. CIERRE: si en planes/ hay un plan de la semana que recién terminó, corre la skill
    `cerrar-semana` para registrar sus preparaciones en bitacora.md (así la semana nueva
-   no repite). Si es la primera corrida y no hay semana previa, sáltate este paso.
+   no repite). Si no hay semana previa, sáltate este paso.
 
-3. PLANIFICA: ejecuta `planificar-semana` para el próximo ciclo (martes a lunes), con las
-   7 tareas. Antes de armar el menú revisa `ajustes_semana.md`: si tiene indicaciones, aplícalas
-   esta semana (sin pasar por encima de las dietas/reglas duras) y luego vacía su sección
-   "Ajustes"; si está vacío, ignóralo. Guarda el plan en planes/semana-AAAA-MM-DD.md (la fecha
-   es el martes que abre el ciclo).
+3. AJUSTES (opcional): revisa `ajustes_semana.md`. Si su sección "Ajustes" tiene indicaciones,
+   aplícalas al plan de esta semana (sin pasar por encima de las dietas ni las reglas duras;
+   si chocan, mandan las reglas y avísalo). Si está vacío, ignóralo.
 
-4. VERIFICA: corre `verificar-semana` sobre el plan nuevo (doble chequeo independiente de
-   dietas, frecuencias, cobertura, cantidades por headcount y presupuesto). Si encuentra
-   ❌, corrige con `planificar-semana` y vuelve a verificar antes de seguir.
+4. PLANIFICA: ejecuta la skill `planificar-semana` para el próximo ciclo (martes a lunes), con
+   las 7 tareas completas. Guarda el plan en planes/semana-AAAA-MM-DD.md (la fecha es el martes
+   que abre el ciclo). Si aplicaste ajustes, indícalo al inicio del plan y luego vacía la sección
+   "Ajustes" de ajustes_semana.md (déjala solo con el placeholder).
 
-5. Haz commit (plan nuevo + bitacora actualizada) y push a la rama
+5. VERIFICA: corre la skill `verificar-semana` sobre el plan nuevo (chequeo independiente de los
+   7 entregables + dietas, frecuencias, rotación, cobertura, cantidades por headcount, conservación
+   y presupuesto). Si encuentra ❌, corrige con `planificar-semana` y vuelve a verificar hasta ✅.
+
+6. Haz commit (plan nuevo + bitacora + ajustes_semana vaciado) y push a la rama
    claude/magical-franklin-136dag. NO abras pull request.
 
-6. En el mensaje final presenta el **plan completo** (las 7 tareas) + la lista de compras
-   para WhatsApp + el resultado del verificador (✅ o los ❌). Que la corrida sea
-   autocontenida: todo se ve abriendo la sesión, sin tener que abrir GitHub.
+7. En el mensaje final presenta el **plan completo** (las 7 tareas) + la **lista de compras para
+   WhatsApp** + la **hoja de la cocinera para enviar** (por día de cocina) + el resultado del
+   verificador (✅ o los ❌). Autocontenido: todo se ve en la sesión, sin abrir GitHub.
 ```
 
 ## Notas
