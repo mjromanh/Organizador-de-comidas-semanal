@@ -41,8 +41,10 @@ mjromanh/Organizador-de-comidas-semanal.
    no repite). Si es la primera corrida y no hay semana previa, sáltate este paso.
 
 3. PLANIFICA: ejecuta `planificar-semana` para el próximo ciclo (martes a lunes), con las
-   7 tareas. Guarda el plan en planes/semana-AAAA-MM-DD.md (la fecha es el martes que abre
-   el ciclo).
+   7 tareas. Antes de armar el menú revisa `ajustes_semana.md`: si tiene indicaciones, aplícalas
+   esta semana (sin pasar por encima de las dietas/reglas duras) y luego vacía su sección
+   "Ajustes"; si está vacío, ignóralo. Guarda el plan en planes/semana-AAAA-MM-DD.md (la fecha
+   es el martes que abre el ciclo).
 
 4. VERIFICA: corre `verificar-semana` sobre el plan nuevo (doble chequeo independiente de
    dietas, frecuencias, cobertura, cantidades por headcount y presupuesto). Si encuentra
@@ -63,6 +65,11 @@ mjromanh/Organizador-de-comidas-semanal.
   puedes simplificar el paso 1.
 - **Cadencia y ciclo:** corre el **lunes**; el plan generado es para el ciclo que empieza el
   **martes siguiente** (un día después), que es justo cuando llegan las compras.
+- **Ajustes de la semana (paso opcional tuyo):** si quieres pedir algo puntual para el próximo
+  plan (un plato o papilla en particular, qué hay en stock, invitados, no comprar X, otro
+  presupuesto), escríbelo en **`ajustes_semana.md`** (sección "Ajustes") y **commitea/pushea a
+  la rama antes del lunes**. La Routine lo aplica esa semana y **vacía el archivo solo** después,
+  así no se arrastra. Si lo dejas vacío, la semana se planifica normal, sin que tengas que hacer nada.
 - **Cierre de semana (automático):** `cerrar-semana` **ya corre solo** como **paso 2** de
   esta misma Routine, cada lunes, **antes** de planificar: registra en `bitacora.md` las
   preparaciones de la semana que terminó para que la nueva no las repita. No hay que correrlo

@@ -17,6 +17,7 @@ Eres el **planificador de comidas y compras** de este hogar. Tu especificación 
 6. `marcas_y_productos.md` — marca/formato exacto para la lista de compras.
 7. `platos_de_referencia.md` — molde de gusto para proponer y rotar.
 8. `bitacora.md` — **lee las 2 entradas más recientes** para no repetir preparaciones, combinaciones de verduras, proteína de la papilla ni la legumbre del último día.
+9. `ajustes_semana.md` — **paso opcional.** Si su sección "Ajustes" trae indicaciones reales (platos/papillas puntuales, stock, invitados, no comprar X, otro presupuesto), **aplícalas a esta semana** (sin pasar por encima de las dietas ni las reglas duras; si chocan, mandan las reglas y avísalo). Si está vacío, omítelo y planifica normal.
 
 Si algún archivo no existe, dilo y sigue con lo disponible (en una instancia nueva sin configurar, sugiere correr `/configurar-hogar`).
 
@@ -50,5 +51,7 @@ Antes de cerrar, repasa el **Checklist de entregables** de `instrucciones_agente
 **Presenta el plan COMPLETO en el chat** —las 7 tareas enteras, no un resumen— para que sea **autocontenido**: la persona no debería tener que abrir el repo de GitHub ni iniciar sesión en otro lado para verlo. Cierra con las **dos versiones listas para enviar**: la **lista de compras para WhatsApp** y la **hoja de la cocinera para WhatsApp/imprimir** (una por día de cocina).
 
 Además, **guarda** esa misma entrega completa en `planes/semana-<martes-AAAA-MM-DD>.md` (crea la carpeta `planes/` si no existe) y menciona, al final, dónde quedó guardada.
+
+Si aplicaste **ajustes de la semana**, indícalo al inicio del plan ("Ajustes aplicados esta semana: …") y, una vez guardado el plan, **vacía la sección "Ajustes" de `ajustes_semana.md`** (déjala solo con el placeholder) para que no se arrastre a la próxima semana. Si estaba vacío, no lo toques.
 
 > Al cerrar la semana, recuerda al usuario que puede correr `/cerrar-semana` para actualizar la bitácora y registrar marcas/platos nuevos.

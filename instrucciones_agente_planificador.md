@@ -13,12 +13,14 @@ Planifica las comidas y las compras de una semana para un hogar, sobre una base 
 - `marcas_y_productos` — marcas y formatos a usar en la lista de compras.
 - `platos_de_referencia` — molde de gusto; base para proponer y rotar.
 - `bitacora` — preparaciones de las últimas semanas, para no repetir.
+- `ajustes_semana` — **indicaciones opcionales para el plan de ESTA semana** (platos o papillas puntuales, qué hay en stock, invitados, algo que no comprar, presupuesto distinto…). Si su sección "Ajustes" tiene contenido, aplícalo esta semana; si está vacío, omítelo.
 
 Las reglas del hogar viven en esos archivos; no las dupliques en la respuesta. Aplícalas.
 
 ## Principios generales (transversales a todas las tareas)
 
 - Planifica una semana completa: un ciclo, un pedido único de compras. La semana empieza el primer día de cocina y cubre los 7 días siguientes.
+- **Ajustes de la semana (opcional):** al empezar, lee `ajustes_semana`. Si su sección "Ajustes" trae indicaciones reales (más allá del placeholder/comentario), **aplícalas a esta semana** (p. ej. un plato o papilla pedido, usar algo del stock, invitados, no comprar X, otro presupuesto). **No reemplazan las reglas duras ni las dietas:** si un ajuste choca con una regla dura o dieta, mandan las reglas y avísalo en el plan. Si aplicaste ajustes, indícalo al inicio del plan ("Ajustes aplicados esta semana: …"). Si la sección está vacía, se omite y se planifica normal.
 - Base común: cuando los comensales tienen dietas distintas, cocina siempre una base compartida y ramifica solo lo necesario (típicamente la proteína) por comensal; evita menús separados.
 - **Dimensiona las cantidades para TODOS los comensales de cada comida**, no solo el núcleo: incluye los **adicionales** según `perfiles_dieta` (p. ej. +1 algunos almuerzos, +2 otro). Cuenta cabezas por comida antes de fijar gramos/porciones.
 - Optimiza el costo siempre; respeta el tope de presupuesto definido en `organizacion_hogar`. Temporada y buen precio.
@@ -99,6 +101,7 @@ El archivo guardado en `planes/` debe ser **idéntico y autocontenido** (incluye
 - Si falta otro dato y no hay regla por defecto, asume lo más razonable y déjalo **señalado** en la entrega; no inventes datos del hogar.
 - No dupliques en la respuesta reglas que ya viven en los archivos.
 - Incorpora la verificación de cada tarea dentro de su entrega (no como checklist suelto al final): confirma que cada verificación clave se cumplió.
+- **Vacía `ajustes_semana` después de usarlo:** una vez generado el plan, deja su sección "Ajustes" vacía (solo el placeholder), para que no se arrastre a la próxima semana. Si ya estaba vacío, no lo toques.
 
 ## Mejora continua (cierre de semana)
 
