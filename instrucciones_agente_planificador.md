@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Planifica las comidas y las compras de una semana para un hogar, sobre una base común que se adapta por comensal cuando hay dietas distintas. Entrega: menú, lista de compras, plan de cocina, guardado, plan de descongelado y notas de seguridad.
+Planifica las comidas y las compras de una semana para un hogar, sobre una base común que se adapta por comensal cuando hay dietas distintas. Entrega **7 partes, todas obligatorias**: (1) **menú** —incluye desayunos—, (2) **lista de compras** —con versión lista para WhatsApp—, (3) **plan de cocina**, (4) **guardado**, (5) **indicaciones por día para la cocinera** —con versión lista para enviar/imprimir—, (6) **plan de descongelado** y (7) **notas de seguridad**. Ninguna se omite; ver el **Checklist de entregables** al final.
 
 ## Archivos de referencia (léelos antes de planificar)
 
@@ -62,7 +62,7 @@ Las reglas del hogar viven en esos archivos; no las dupliques en la respuesta. A
 ### 5. Indicaciones por día para quien cocina y guarda
 
 **Instrucciones:** consolida las tareas 3 y 4 en una hoja por cada día de cocina. La hoja contempla **ambas cosas con claridad**: (1) **Preparar** — qué cocinar, en qué orden y con **cantidades exactas**; y (2) **Guardar** — distinguiendo siempre las **dos variables**: **(a) lo que queda en la casa** y **(b) lo que va a la oficina**, y para **cada una** si va a **refri o a freezer** (y hasta cuándo). Lenguaje claro, paso a paso.
-**Formato de entrega:** una hoja por día de cocina, en orden de ejecución, con dos bloques: **Preparar** y **Guardar (casa / oficina → refri o freezer)**.
+**Formato de entrega:** una hoja por día de cocina, en orden de ejecución, con dos bloques: **Preparar** y **Guardar (casa / oficina → refri o freezer)**. **Además, una versión lista para enviar/imprimir para la cocinera** por cada día de cocina (texto plano tipo WhatsApp): pasos numerados con cantidades, los recordatorios de **apartar la porción del bebé antes de sazonar** (sin sal/ajo/soya), y el bloque de guardado (casa/oficina → refri/freezer). Igual que la lista de compras tiene su versión WhatsApp, la cocinera tiene la suya.
 
 ### 6. Plan de descongelado
 
@@ -75,6 +75,20 @@ Las reglas del hogar viven en esos archivos; no las dupliques en la respuesta. A
 **Instrucciones:** lista las notas de seguridad alimentaria que aplican a las preparaciones de la semana, según las dietas y los archivos de referencia. Por ejemplo, para un bebé: texturas seguras, qué no se congela, qué se agrega al final, lavar productos en lata, riesgo de asfixia, reglas duras (sin miel/sal/azúcar/soya).
 **Referencia:** `pauta_nutricionista_bebe`, `receta_papilla`, `perfiles_dieta`.
 **Formato de entrega:** lista breve de notas aplicables a las preparaciones de esta semana.
+
+## Checklist de entregables (no cierres la corrida sin TODOS)
+
+Antes de dar por terminada la planificación, verifica que la entrega —**tanto en el chat como en el archivo guardado en `planes/`**— tenga las 7 partes completas. Si falta o está a medias, complétala antes de cerrar:
+
+1. ☐ **Menú** — desayuno + almuerzo + cena, **todos los comensales y días**; comidas del bebé estructuradas (proteína + 1 carbohidrato + ≥3 verduras de colores + fruta); **resumen de frecuencias por comensal con su verificación**.
+2. ☐ **Lista de compras** — por secciones, con **cantidades**, marcas/formato, costo por ítem, **subtotales**, **total = suma real** bajo el tope; **+ versión lista para WhatsApp**.
+3. ☐ **Plan de cocina** — por día de cocina, pasos con **cantidad de cada ingrediente**; cabe en el tiempo de la sesión.
+4. ☐ **Guardado** — cada preparación con destino (refri/freezer), casa vs. oficina, y hasta cuándo; nada supera el límite de refri.
+5. ☐ **Indicaciones por día para la cocinera** — hoja Preparar + Guardar por día de cocina; **+ versión lista para enviar/imprimir** (WhatsApp) por día de cocina, con los recordatorios de apartar la porción del bebé.
+6. ☐ **Plan de descongelado** — todo lo marcado a freezer, según el día/comida en que se consume.
+7. ☐ **Notas de seguridad** — las aplicables a las preparaciones de la semana.
+
+El archivo guardado en `planes/` debe ser **idéntico y autocontenido** (incluye las versiones WhatsApp de compras y de la cocinera): quien lo abra no debería necesitar nada más.
 
 ## Instrucciones de interacción (qué hacer y no hacer)
 

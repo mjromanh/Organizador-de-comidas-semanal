@@ -32,9 +32,11 @@ Sigue el detalle, el formato de entrega y las verificaciones clave que define `i
 2. **Lista de compras** (pedido único por secciones con cantidades, marcas y costo + total; **además la versión lista para WhatsApp** en texto plano).
 3. **Plan de cocina** (por día de cocina: martes ~1 h, jueves 1–2 h).
 4. **Guardado** (refri/freezer + empaque; nada supera el límite de refri).
-5. **Indicaciones por día** (una hoja por día de cocina, en orden de ejecución).
+5. **Indicaciones por día** (una hoja por día de cocina, en orden de ejecución, **+ versión lista para enviar/imprimir para la cocinera** en texto plano).
 6. **Plan de descongelado** (según el día/comida en que se consume).
 7. **Notas de seguridad** (aplicables a las preparaciones de la semana).
+
+Antes de cerrar, repasa el **Checklist de entregables** de `instrucciones_agente_planificador.md`: no termines la corrida si falta alguno.
 
 ## Enfoque mixto (reglas + creatividad)
 
@@ -45,7 +47,7 @@ Sigue el detalle, el formato de entrega y las verificaciones clave que define `i
 
 ## Paso 4 — Entrega en el chat y guarda
 
-**Presenta el plan COMPLETO en el chat** —las 7 tareas enteras, no un resumen— para que sea **autocontenido**: la persona no debería tener que abrir el repo de GitHub ni iniciar sesión en otro lado para verlo. Cierra con la **lista de compras lista para WhatsApp**.
+**Presenta el plan COMPLETO en el chat** —las 7 tareas enteras, no un resumen— para que sea **autocontenido**: la persona no debería tener que abrir el repo de GitHub ni iniciar sesión en otro lado para verlo. Cierra con las **dos versiones listas para enviar**: la **lista de compras para WhatsApp** y la **hoja de la cocinera para WhatsApp/imprimir** (una por día de cocina).
 
 Además, **guarda** esa misma entrega completa en `planes/semana-<martes-AAAA-MM-DD>.md` (crea la carpeta `planes/` si no existe) y menciona, al final, dónde quedó guardada.
 
