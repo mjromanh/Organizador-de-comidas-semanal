@@ -15,6 +15,4 @@
 
 ## Ajustes
 
-- **Jueves: cocinar merluza** para la mujer y el bebé. Es la **única preparación de pescado** de la semana (mujer: Jue-cena + Vie-almuerzo; bebé: BLW al vapor jueves y viernes, los 2 pescados seguidos).
-- **Hay harto stock de tomate** → hacer **salsa de tomate natural** casera; **no comprar tomate ni salsa de tomate en lata**. Usarla para **bolognesa de carne** (hombre) y **bolognesa de lentejas** (mujer).
-- **La tanda de papilla de esta semana es de VACUNO** (de carne).
+<!-- Escribe aquí las indicaciones para la próxima semana. Se borra solo después de usarse. -->

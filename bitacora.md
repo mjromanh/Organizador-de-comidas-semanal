@@ -33,4 +33,10 @@
 
 ## Historial
 
-(vacío — se llena al cerrar la primera semana; la entrada más reciente va arriba)
+### Semana del 2026-06-30
+- Papilla nueva — proteína: pavo (tanda ~6 porciones; se consumieron 2 —jueves fresca y domingo del freezer— y quedaron 4 al stock)
+- Papilla nueva — verduras (combinación): camote + zanahoria + brócoli + betarraga + choclo
+- Legumbre del último día: porotos (burros/granados) — lunes almuerzo
+- Preparaciones principales (por comensal): mujer — chaufán de vegetales con huevo, garbanzos guisados, atún con mayo (pote oficina), salmón mongoliano, sopa de verduras + edamame/huevo duro, sopa + porotos guisados; hombre — hamburguesa de carne, garbanzos (sin carne), pollo a la plancha, pavo a la plancha, porotos; bebé — BLW huevo, BLW pollo, BLW pescado (salmón vapor), papilla vacuno (stock), papilla pavo (tanda nueva), papilla legumbre (garbanzos y porotos)
+- Combinaciones de verduras destacadas: zanahoria + zapallito + apio + palmito (ensalada); camote + zanahoria + brócoli + betarraga + choclo (papilla pavo); papa + zanahoria + zapallito + choclo (papilla vacuno); garbanzos + zapallo + acelga/espinaca + choclo/arroz (papilla legumbre)
+- Notas / no repetir la próxima: no repetir salmón/pescado en la misma preparación (mongoliano) ni la combinación de ensalada zanahoria-zapallito-apio-palmito; variar la próxima tanda de papilla lejos de pavo (fue la de esta semana); tortilla de atún y boloñesa llevan 2 semanas sin cocinarse — pueden volver la próxima semana.
