@@ -27,7 +27,7 @@
 ## Hombre — alto en proteína, práctico
 - No desayuna.
 - Come lo mismo que la mujer, **cambiando el pescado por carne o huevo** (vacuno, pollo, pavo, cerdo). **Mínimo 300 g de proteína cocida** en el plato principal.
-- En días de **legumbres**, las come igual, **sin carne extra**.
+- **Legumbres: SOLO el lunes** (el día de legumbre estructural del hogar); ese día las come igual, **sin carne extra**. Los demás días, si la base de la mujer es legumbre, él lleva su **swap de carne/ave/huevo** — de preferencia **sobras de una preparación ya cocinada** esa semana (ej.: la boloñesa de carne del martes se repite el miércoles), antes que cocinar algo nuevo o comprar de más.
 - No come pescado ni mariscos. Acepta rápidos: hamburguesas o filetitos de pollo apanado del super que solo se calientan.
 
 ## Bebé — BLW + papillas
@@ -82,5 +82,6 @@
 - **Pescado: solo se cocina 1 preparación de pescado por semana** (no es límite de consumo — esa preparación se puede repetir al comer). El resto de las preparaciones principales rota legumbres y huevo.
 - **Mujer:** equilibra pescado, legumbres, huevo y **atún** (trata "atún con mayo" como categoría aparte del huevo). **Del pescado se cocina solo 1 preparación a la semana** (puede repetirse al comer). En las **cenas**, rota parejo entre **huevo duro, atún con mayo y tortilla** (cuando se "agota" una en la semana, pasa a la siguiente; no cargar al huevo).
 - **Bebé:** balancea según las frecuencias de su pauta y **verifica que cumpla el mínimo de cada grupo**, contando **todo** lo que come: papillas + BLW (**pescado, huevo, pollo**) + legumbres. Cuotas y reglas completas en "Papillas — política". **Regla dura: vacuno máximo 2×/semana.**
-- **Hombre:** varía la carne (vacuno, pollo, pavo, cerdo); no repitas la misma 2 días seguidos.
+- **Hombre:** varía la carne (vacuno, pollo, pavo, cerdo); no repitas la misma 2 días seguidos **entre preparaciones nuevas**. Repetir la **misma preparación ya cocinada** en días seguidos (sobras) sí está permitido — "repetir comidas sí, repetir preparaciones no".
+- **Mujer (almuerzos):** reparte también las categorías en sus almuerzos: evita que una sola (p. ej. legumbres) ocupe más de la mitad de los almuerzos de la semana, contando el pote heredado del ciclo anterior.
 - Alterna estilo **chileno/asiático**.

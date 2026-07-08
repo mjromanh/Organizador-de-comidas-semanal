@@ -24,6 +24,8 @@ Mantén la **ventana acotada** (la que indique `bitacora.md`, ~últimas 4 semana
 
 Para estos dos, **muestra al usuario la línea exacta que vas a agregar y confírmala** antes de escribir (cambios de gusto, no automáticos del todo).
 
+**En corrida autónoma (Routine, sin usuario presente):** no los escribas ni los omitas en silencio — incluye las **líneas propuestas** en el mensaje final y en la notificación, para que el usuario las confirme asincrónicamente (o las pegue él mismo).
+
 ## Regla dura
 
 `perfiles_dieta.md` y `pauta_nutricionista_bebe.md` **no se modifican** automáticamente (autoridad manual). Si algo sugiere cambiarlos, solo señálalo al usuario; no los edites.
