@@ -14,6 +14,8 @@
   - **Jueves (1–2 h):** sesión larga.
 - **No se cocina** miércoles, viernes, sábado, domingo ni lunes. Esas comidas salen de refri o freezer.
 - Los ítems de cocción larga (arroz integral, legumbres secas, guisos) van a la sesión del jueves, quedan listos/congelados, o usan alternativa rápida (arroz blanco, legumbres de tarro, olla a presión).
+- **El martes se cocina POCO (es la sesión corta):** solo preparaciones rápidas y frescas — planchas, huevos, vapor, hervidos cortos (pasta/arroz), ensamblajes y a lo más un guiso corto. **Tope ~5 preparaciones**, con cronograma en minutos que quepa en la hora. Si no cabe, se simplifica el menú de mar/mié; no se aprieta el cronograma en el papel.
+- **El jueves (sesión larga) deja sembrado el arranque del ciclo siguiente:** además del pote del martes, cocina y **congela 1–2 preparaciones para el martes-cena/miércoles siguientes** (sopa, guiso, salsa o legumbre). El plan siguiente las hereda del freezer y así el martes no tiene que producir dos días de comida en una hora.
 - **No cocinar más de una legumbre por sesión de cocina** (repártelas entre martes y jueves; el **edamame cuenta como legumbre**).
 
 ## Equipos disponibles
