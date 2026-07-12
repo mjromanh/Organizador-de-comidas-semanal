@@ -33,6 +33,14 @@
 
 ## Historial
 
+### Semana del 2026-07-07
+- Papilla nueva — proteína: **vacuno** (tanda ~6 porciones; se consumieron 2 —jueves fresca + domingo del freezer— y quedaron 4 al stock; repuso la categoría vacuno agotada la semana anterior)
+- Papilla nueva — verduras (combinación): zapallo (base) + zanahoria + espinaca + acelga + choclo
+- Legumbre del último día: garbanzos (guisados) — lunes almuerzo
+- Preparaciones principales (por comensal): mujer — ñoquis con boloñesa de lentejas (salsa de tomate casera), atún con mayo (pote oficina), merluza a la sartén con limón, tortilla de atún y verduras, sopa de verduras + huevo duro; hombre — ñoquis con boloñesa de carne, pollo a la plancha, pavo a la plancha, garbanzos (sin carne, lunes), tortilla de verduras sin atún, huevo duro; bebé — BLW huevo, BLW pollo, BLW merluza (al vapor), papilla vacuno (tanda nueva), papilla pavo (stock), papilla pollo (stock), papilla legumbre (lentejas de la boloñesa + garbanzos)
+- Combinaciones de verduras destacadas: ensalada lechuga + pepino + zanahoria (limón); sopa cebolla + zanahoria + zapallo + acelga; papilla vacuno zapallo + zanahoria + espinaca + acelga + choclo; BLW brócoli + betarraga + papa/zanahoria
+- Notas / no repetir la próxima: no repetir salsa de tomate casera/boloñesa (se hizo esta semana); rotar la tanda de papilla lejos de vacuno **y** de pavo (últimas dos tandas) → toca **pollo**; no repetir la combinación de la papilla vacuno (zapallo+zanahoria+espinaca+acelga+choclo); merluza fue el pescado de la semana (rotar a salmón/otro); garbanzos fue la legumbre del lunes (rotar a lentejas/porotos); primera introducción de lácteos exitosa (yogurt viernes+domingo) → desde ahora lácteos habilitados a diario; avena/granola aún sin introducir.
+
 ### Semana del 2026-06-30
 - Papilla nueva — proteína: pavo (tanda ~6 porciones; se consumieron 2 —jueves fresca y domingo del freezer— y quedaron 4 al stock)
 - Papilla nueva — verduras (combinación): camote + zanahoria + brócoli + betarraga + choclo
