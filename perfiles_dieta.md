@@ -34,7 +34,7 @@
 - Reglas y estructura: ver `pauta_nutricionista_bebe`.
 - **Reglas duras propias:** sin **lácteos ni avena** (hasta 10 meses = 10/07/2026), sin miel, sin sal, sin azúcar, **sin salsa de soya**; texturas seguras/blandas.
 - **Desayuno compartido con la mujer:** mismos ingredientes, una sola preparación (ajustar textura para el bebé), cumpliendo a la vez las reglas de ambos (del bebé y el "sin azúcar añadido"/intolerancias de ella; ej. nada de tomate crudo). **Sin fruta en el desayuno.**
-- **Fruta del bebé = postre de almuerzo y cena** (1 porción, 100–150 g, según la pauta), no en el desayuno. Cubre el "frutas todos los días".
+- **Fruta del bebé = postre de almuerzo y cena** (1 porción, 100–150 g, según la pauta), no en el desayuno. Cubre el "frutas todos los días". **No es necesario planificarla en el menú semanal ni en la lista de compras**: se sigue dando siempre, pero queda fuera del plan formal (no es un entregable a detallar comida por comida ni algo que `verificar-semana` deba exigir).
 - **BLW del bebé (fuera de la papilla):** se aparta de la comida familiar **antes de sazonar**, sin sal ni aliños fuertes (ej. **ajo**).
   - **Pescado, huevo y 1× pollo** van por **BLW en almuerzo** (la papilla no lleva pescado ni huevo). Cantidades, frecuencias y colocación: ver la **política de papillas** abajo.
   - **Legumbres:** salen de la **preparación de legumbres de los adultos** (papilla o BLW, fresca o porción congelada). **NO** son "papilla real" ni consumen stock de carne, pero **sí suman** a la frecuencia de legumbres del bebé.
