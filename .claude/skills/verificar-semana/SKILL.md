@@ -27,7 +27,7 @@ Confirma que el plan trae las 7 tareas, **enteras** (no a medias). Si falta una 
 
 ### B) Reglas transversales (re-derivadas, cuenta y recalcula)
 - **Dietas duras de cada comensal:** lo que no come / exclusiones / proteína mínima → ningún plato se las salta.
-- **Frecuencias y rotación:** cuenta de verdad cada grupo (ej. frecuencias del bebé; vacuno ≤ tope; "1 sola preparación de pescado"). **Verifica la rotación por categoría de proteína** (no solo que no se repita el mismo plato): que no se cargue una misma proteína días seguidos. Reporta el número real, no el del plan.
+- **Frecuencias y rotación:** cuenta de verdad cada grupo (ej. frecuencias del bebé; vacuno ≤ tope; "1 sola preparación de pescado"). **Verifica la rotación por categoría de proteína** (no solo que no se repita el mismo plato): que no se cargue una misma proteína días seguidos. **Verifica también la rotación de acompañamientos/carbohidratos** (arroz, papa, fideos, puré, quínoa, choclo…): que no se repita el mismo días seguidos ni domine toda la semana. Reporta el número real, no el del plan.
 - **Cobertura:** todas las comidas de todos los comensales y días; **porciones para el headcount completo** (incluidos adicionales).
 - **Composición** según la regla del comensal: orden/estructura; **postre/fruta solo para quien corresponde**; lo del bebé apartado **sin sal ni ajo**.
 - **Papillas** (si aplica): consumo vs. stock; reglas de vacuno y legumbre; tanda nueva y reposición.
