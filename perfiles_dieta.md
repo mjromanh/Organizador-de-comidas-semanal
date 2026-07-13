@@ -7,8 +7,8 @@
 - **Adicionales (solo almuerzo, sin restricciones, suman porciones):** +1 mujer mar/mié/vie/lun; +2 mujeres jueves. Almuerzo: 3 adultos (4 el jueves). Cena: siempre 2.
 
 ## Cobertura (quién come qué y cuándo)
-- **Adultos:** almuerzo y cena en los **días hábiles** de la semana (martes, miércoles, jueves, viernes y lunes). **Sábado y domingo salen o piden** (no se cocina para adultos).
-- **Mujer:** desayuna **los 7 días** (finde: armado simple). El hombre **no desayuna**.
+- **Adultos:** almuerzan los **días hábiles** de la semana (martes, miércoles, jueves, viernes y lunes). **Cenan en casa martes, miércoles, jueves y lunes.** **Viernes cena, sábado y domingo: salen o piden** (no se cocina ni se planifica esa cena para adultos).
+- **Mujer:** desayuna **los 7 días** (finde: armado simple), compartido con el bebé. El hombre **no desayuna**. **El desayuno no se planifica en el menú semanal ni en la lista de compras**: se resuelve con lo que haya en casa (pan, palta, mantequilla de maní/almendras, huevo, yogurt…), sin necesidad de diseñarlo ni rotarlo día a día — igual que la fruta del bebé, queda fuera del plan formal.
 - **Bebé:** come **los 7 días** (desayuno, almuerzo y cena).
 - **Almuerzo de oficina de la mujer:** lo lleva **lunes, martes, miércoles y jueves**; el **viernes almuerza en casa**. Cada porción de oficina se **aparta y empaca en la sesión de cocina** y se guarda según cuándo se consume. **Reparto fijo:** en la sesión del **martes** se empacan los potes de **miércoles y jueves** (→ **refri**); en la del **jueves**, los de **lunes y del martes siguiente** (→ **freezer**, se descongelan la noche anterior). Por eso el pote del **martes** de cada semana viene del **jueves anterior**.
 - **Último día de la semana (lunes):** todas las comidas salen del freezer. **Almuerzo = sopa de entrada (no ensalada, por venir de freezer) + legumbre rotada** (sin repetir la de la semana anterior); **cena = sopa**. Las preparaciones de ese día se diseñan para congelar y recalentar bien.
