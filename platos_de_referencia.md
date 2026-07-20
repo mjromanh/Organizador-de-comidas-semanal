@@ -6,7 +6,7 @@
 
 * Pan con palta
 * Pan con huevo
-* Yogurt con granola *(solo cuando el bebé ya tome lácteos, desde 10 meses)*
+* Yogurt con granola
 * Fruta con mantequilla de maní o almendras
 
 ## Ensaladas (entrada de almuerzo)

@@ -16,7 +16,7 @@ Una tanda de **~6 porciones (190 ml)** —**igual al consumo semanal de papillas
 
 ### Resto
 - **Base cremosa libre, ~410 g:** camote, papa o zapallo.
-- **Carbohidrato ~27 g total**, distinto por receta.
+- **Carbohidrato 30 g total**, distinto por receta.
 - **≥3 verduras de colores distintos**, sin repetir mucho las combinaciones entre recetas.
 
 ## Método (2 tiempos)

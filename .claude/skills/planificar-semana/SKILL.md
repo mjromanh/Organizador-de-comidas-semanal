@@ -23,7 +23,9 @@ Si algún archivo no existe, dilo y sigue con lo disponible (en una instancia nu
 
 ## Paso 2 — Determina la semana
 
-El ciclo es de **martes a lunes** (martes = primer día de cocina e inicio; lunes = último día). Usando **la fecha actual real**, calcula el martes que abre el ciclo a planificar (el próximo martes, o el de hoy si hoy es martes). Indica el rango de fechas exacto (martes AAAA-MM-DD a lunes AAAA-MM-DD) al inicio de la entrega. Calcula además la edad del bebé a esa fecha (nacido 10/09/2025) por si activa alguna regla (p. ej. lácteos desde el 10/07/2026).
+El ciclo es de **martes a lunes** (martes = primer día de cocina e inicio; lunes = último día). Usando **la fecha actual real**, calcula el martes que abre el ciclo a planificar (el próximo martes, o el de hoy si hoy es martes). Indica el rango de fechas exacto (martes AAAA-MM-DD a lunes AAAA-MM-DD) al inicio de la entrega. Calcula además la edad del bebé a esa fecha (nacido 10/09/2025) por si activa alguna regla por edad.
+
+**Resguardo anti-desfase de la bitácora:** antes de planificar, verifica que el **plan más reciente en `planes/`** (la semana que acaba de terminar) **ya tenga su entrada en `bitacora.md`**. Si NO la tiene (se planificó sin cerrar), **corre primero `/cerrar-semana`** para registrarla; así la semana nueva no repite lo de la anterior. En corrida autónoma (Routine) esto ya es el paso 2, pero repítelo aquí como red de seguridad para las corridas manuales.
 
 ## Paso 3 — Entrega las 7 tareas, en orden
 

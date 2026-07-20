@@ -3,7 +3,7 @@
 > Referencia de quién come qué, cuándo, y cómo balancear las proteínas. El perfil del bebé remite a `pauta_nutricionista_bebe`. El cuerpo del prompt aplica todo esto.
 
 ## Núcleo y comensales adicionales
-- **Núcleo:** 2 adultos (mujer, hombre) + bebé (nacido 10/09/2025; calcular edad sola; lácteos desde los 10 meses = 10/07/2026).
+- **Núcleo:** 2 adultos (mujer, hombre) + bebé (nacido 10/09/2025; calcular edad sola).
 - **Adicionales (solo almuerzo, sin restricciones, suman porciones):** +1 mujer mar/mié/vie/lun; +2 mujeres jueves. Almuerzo: 3 adultos (4 el jueves). Cena: siempre 2.
 
 ## Cobertura (quién come qué y cuándo)
@@ -32,7 +32,7 @@
 
 ## Bebé — BLW + papillas
 - Reglas y estructura: ver `pauta_nutricionista_bebe`.
-- **Reglas duras propias:** sin **lácteos ni avena** (hasta 10 meses = 10/07/2026), sin miel, sin sal, sin azúcar, **sin salsa de soya**; texturas seguras/blandas.
+- **Reglas duras propias:** sin miel, sin sal, sin azúcar, **sin salsa de soya**; texturas seguras/blandas.
 - **Desayuno compartido con la mujer:** mismos ingredientes, una sola preparación (ajustar textura para el bebé), cumpliendo a la vez las reglas de ambos (del bebé y el "sin azúcar añadido"/intolerancias de ella; ej. nada de tomate crudo). **Sin fruta en el desayuno.**
 - **Fruta del bebé = postre de almuerzo y cena** (1 porción, 100–150 g, según la pauta), no en el desayuno. Cubre el "frutas todos los días". **No es necesario planificarla en el menú semanal ni en la lista de compras**: se sigue dando siempre, pero queda fuera del plan formal (no es un entregable a detallar comida por comida ni algo que `verificar-semana` deba exigir).
 - **BLW del bebé (fuera de la papilla):** se aparta de la comida familiar **antes de sazonar**, sin sal ni aliños fuertes (ej. **ajo**).

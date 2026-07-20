@@ -15,7 +15,7 @@ Toma el plan más reciente en `planes/` (o pregúntale al usuario cuál semana c
 
 Agrega **una entrada nueva arriba del historial, usando el formato que define el propio `bitacora.md`** (no inventes ni hardcodees campos: cada hogar tiene el suyo). En general se registran las **proteínas y preparaciones principales** de la semana, las **combinaciones de verduras**, y lo que ese hogar registre **si aplica** (p. ej. proteína de la papilla, legumbre del último día). El objetivo: que las próximas semanas **no repitan** proteínas, preparaciones ni combinaciones recientes.
 
-Mantén la **ventana acotada** (la que indique `bitacora.md`, ~últimas 4 semanas): borra las entradas más antiguas que sobren.
+Mantén la **ventana acotada** (la que indique `bitacora.md`, ~últimas 2 semanas): borra las entradas más antiguas que sobren.
 
 ## Paso 3 — Propón actualizaciones a los archivos de gusto/compras
 

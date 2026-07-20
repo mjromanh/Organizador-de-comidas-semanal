@@ -11,7 +11,7 @@
 * Zanahoria rallada, unidad
 * Palmitos cortados wasil 200 gr, unidad
 * Platanos, kg
-* Wiki, kg
+* Kiwi, kg
 * Frutilla, kg
 * Mango, unidad
 * Pera, unidad
@@ -42,7 +42,7 @@
 
 * Arroz integral tucapel — grano largo, 1 kg
 * Mermelada — St Dalfour (sin azúcar)
-* Aceite granola, Belmont
+* Aceite canola, Belmont
 * Aceite de oliva, huasco
 * Tallarines de proteina
 * Porotos, lentejas, garbanzos Banquete
