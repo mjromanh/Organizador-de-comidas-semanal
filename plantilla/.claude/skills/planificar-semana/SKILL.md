@@ -25,6 +25,8 @@ Si algún archivo no existe, dilo y sigue con lo disponible (en una instancia nu
 
 El **ciclo** (día de inicio/fin y días de cocina) está definido en `organizacion_hogar`. Usando **la fecha actual real**, calcula el día que abre el próximo ciclo a planificar e indica el **rango de fechas exacto** (AAAA-MM-DD a AAAA-MM-DD) al inicio de la entrega. Si `perfiles_dieta` define reglas que dependen de la **edad** de un comensal (p. ej. un bebé con hitos por mes), calcula su edad a esa fecha por si se activa alguna regla.
 
+**Resguardo anti-desfase de la bitácora:** antes de planificar, verifica que el **plan más reciente en `planes/`** (el ciclo que acaba de terminar) **ya tenga su entrada en `bitacora.md`**. Si NO la tiene (se planificó sin cerrar), **corre primero `/cerrar-semana`** para registrarla; así el ciclo nuevo no repite lo del anterior. En corrida autónoma (Routine) esto ya es un paso previo, pero repítelo aquí como red de seguridad para las corridas manuales.
+
 ## Paso 3 — Entrega las 7 tareas, en orden
 
 Sigue el detalle, el formato de entrega y las verificaciones clave que define `instrucciones_agente_planificador.md` para cada tarea:

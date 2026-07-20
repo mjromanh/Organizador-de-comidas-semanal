@@ -2,7 +2,7 @@
 
 > Registro de las preparaciones de las últimas semanas para no repetirlas al diseñar la semana nueva.
 > El planificador **lee las 2 entradas más recientes** antes de diseñar el menú; al **cerrar la semana, agrega una entrada** arriba del historial.
-> Ventana: mantener solo las últimas ~4 semanas.
+> Ventana: mantener solo las **2 entradas más recientes** (las 2 últimas semanas).
 
 ## Cómo se usa
 - **Al planificar:** revisa las 2 entradas más recientes y evita repetir las proteínas, las preparaciones principales y las combinaciones recientes.
