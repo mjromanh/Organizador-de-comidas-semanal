@@ -39,7 +39,7 @@ Corre **solo cada semana** vía una **Routine**. Además hay una **versión expo
 - **Entregables blindados:** `instrucciones_agente_planificador.md` tiene un **"Checklist de entregables"** (7 partes)
   + versiones **listas para enviar**: lista de compras para WhatsApp y **hoja de la cocinera** por día de cocina.
 - **Reglas transversales** clave (en la spec y en `verificar-semana`): rotación de proteínas Y carbohidratos;
-  crudo vs. cocido (compra en crudo, dieta en cocido, merma ~25–30 %); continuidad de potes/siembra entre semanas;
+  crudo vs. cocido (compra en crudo, dieta en cocido, merma ~25–30 %); continuidad del pote de oficina entre semanas (sin siembra; el martes cocina fresco);
   1 sola proteína por sesión para el comensal con swap; composición real de papillas de stock; cronograma en minutos por sesión.
 - `perfiles_dieta` y `pauta_nutricionista_bebe` = **autoridad manual**; `cerrar-semana` no los toca.
 
