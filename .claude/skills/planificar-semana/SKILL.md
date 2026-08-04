@@ -31,7 +31,7 @@ El ciclo es de **martes a lunes** (martes = primer día de cocina e inicio; lune
 
 Sigue el detalle, el formato de entrega y las verificaciones clave que define `instrucciones_agente_planificador.md` para cada tarea:
 
-1. **Menú semanal** (tabla por día + resumen de frecuencias por comensal con su verificación).
+1. **Menú semanal** (tabla por día + resumen de frecuencias por comensal con su verificación). **Sin desayuno ni fruta:** no incluyas tabla/sección de desayunos ni fruta/sugerencias de fruta en el plan (ni como referencia) — el hogar los maneja aparte (ver `perfiles_dieta`); el menú arranca directo en almuerzo/cena.
 2. **Lista de compras** (pedido único por secciones con cantidades, marcas y costo + total; **además la versión lista para WhatsApp** en texto plano).
 3. **Plan de cocina** (por día de cocina: martes ~1 h, jueves 1–2 h).
 4. **Guardado** (refri/freezer + empaque; nada supera el límite de refri).
