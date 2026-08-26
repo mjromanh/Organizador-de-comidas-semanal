@@ -17,7 +17,7 @@ Marca ✅/❌ con la **evidencia**. Revisa **dos cosas**: que estén **todos los
 
 ### A) Cada entregable presente y completo (las 7 tareas)
 Confirma que el plan trae las 7 tareas, **enteras** (no a medias). Si falta una o está incompleta, es ❌.
-1. **Menú** — almuerzo y cena de todos los comensales y días **según la cobertura de `perfiles_dieta`** (el desayuno y la fruta de un bebé se planifican solo si esa cobertura lo indica; si no, no los exijas); si algún comensal come por BLW/papilla, cada comida suya **estructurada** (proteína + carbohidrato + ≥3 verduras, no solo la proteína) + resumen de frecuencias. Si esas comidas vienen "a secas" (sin carbohidrato o sin verduras), es ❌.
+1. **Menú** — las comidas de todos los comensales y días **según la cobertura de `perfiles_dieta`**: exige **exactamente** las comidas que esa cobertura declara para cada comensal — no marques como faltante una comida que el hogar no cubre, ni pases por alto una que sí (el motor no asume ni excluye ninguna por defecto); si algún comensal come por BLW/papilla, cada comida suya **estructurada** (proteína + carbohidrato + ≥3 verduras, no solo la proteína) + resumen de frecuencias. Si esas comidas vienen "a secas" (sin carbohidrato o sin verduras), es ❌.
 2. **Lista de compras** — por secciones, **con cantidades exactas**, **subtotales + total** (suma real; bajo el tope si existe) **y versión WhatsApp**. Una lista sin cantidades o a bosquejo es ❌.
 3. **Plan de cocina** — por día de cocina, con **cantidades exactas**, y cabe en el tiempo de la sesión.
 4. **Guardado** — cada preparación con destino (refri/freezer), casa vs. oficina, y hasta cuándo.
