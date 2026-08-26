@@ -48,7 +48,7 @@ Dentro de Claude Code, en este repositorio:
 - **Automático (ya disponible):** una **Routine** de Claude Code corre
   `/planificar-semana` sola cada semana (el ciclo pide el lunes, cocina el martes → el
   plan queda listo el lunes). Cómo configurarla: ver `AUTOMATION.md`.
-- **Versión exportable (ya disponible):** la carpeta `plantilla/` trae el bundle genérico
+- **Versión exportable (ya disponible):** la carpeta `template/` trae el bundle genérico
   (plantillas en blanco + la skill `/configurar-hogar` que entrevista a un hogar nuevo y
   le genera sus propios archivos) para activar este mismo planificador en otra casa. Cómo
-  instalarla: ver `plantilla/INSTALACION.md`.
+  instalarla: ver `template/INSTALACION.md`.

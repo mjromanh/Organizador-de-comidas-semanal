@@ -8,7 +8,7 @@ Planificador de comidas y compras semanales que **vive dentro de Claude Code**, 
 hogar chileno (2 adultos + bebé, con almuerzos de oficina). Entrega 7 partes: menú, lista de
 compras, plan de cocina, guardado, indicaciones por día, descongelado y notas de seguridad.
 Corre **solo cada semana** vía una **Routine**. Además hay una **versión exportable genérica**
-(`plantilla/`) para que otras personas lo activen.
+(`template/`) para que otras personas lo activen.
 
 ## Cómo se trabaja
 - **Skills** (en `.claude/skills/`): `/planificar-semana`, `/verificar-semana`, `/cerrar-semana`.
@@ -50,23 +50,24 @@ Corre **solo cada semana** vía una **Routine**. Además hay una **versión expo
 - Identidad de la Routine en los commits: autor **`meal-planner-agent`**. Ya generó varias semanas y limpió `ajustes_semana`.
 - Si se editara el nombre de la rama a `main`, hay que actualizar el `git checkout` del prompt (ver AUTOMATION.md).
 
-## Versión exportable (`plantilla/`)
+## Versión exportable (`template/`)
 - Bundle genérico completo (spec, 4 skills incl. `configurar-hogar`, `plantillas/` en blanco, `ajustes_semana.md`,
   AUTOMATION/INSTALACION/README/DISENO, hook de onboarding). **Ya está sincronizado con todas las mejoras del principal**,
-  en versión genérica (sin datos de este hogar; desayuno/fruta configurables; "quien cocina"; ciclo desde `organizacion_hogar`).
+  en versión genérica (sin datos de este hogar; desayuno/fruta configurables; "quien cocina"; ciclo desde `organizacion_hogar`;
+  regla actual **sin "siembra"** — cada sesión cocina fresco para los días que abastece).
 - Instalación pensada para: "Use this template" en GitHub → abrir en Claude Code → escribir «ejecuta instalacion.md»
   → `configurar-hogar` entrevista y genera los archivos → primer plan → Routine.
 
 ## Pendientes / en curso
-1. **Publicar `plantilla/` como su propio repo** (paso manual del usuario; `plantilla/` hoy es subcarpeta de este repo).
-2. **Probar la plantilla con un hogar nuevo** (test): crear repo nuevo, copiar el **contenido** de `plantilla/` a la raíz
+1. **Publicar `template/` como su propio repo** (paso manual del usuario; `template/` hoy es subcarpeta de este repo).
+2. **Probar la plantilla con un hogar nuevo** (test): crear repo nuevo, copiar el **contenido** de `template/` a la raíz
    —incluida la carpeta oculta `.claude`— y correr «ejecuta instalacion.md» con un hogar distinto (ideal sin bebé, otros
    días de cocina, otro tope) para cazar fugas. En un intento, los archivos se subieron **sueltos sin carpetas**; la forma
-   robusta de ordenarlos en esa sesión es `git clone -b claude/magical-franklin-136dag <repo-fuente>` y `cp -r fuente/plantilla/. .`.
+   robusta de ordenarlos en esa sesión es `git clone -b claude/magical-franklin-136dag <repo-fuente>` y `cp -r fuente/template/. .`.
 3. **Confirmar que la Routine agendada** tenga el prompt actual de `AUTOMATION.md` (no se puede leer su config desde el repo).
 
 ## Reglas de oro (no hacer)
 - No crear PRs sin pedirlo. No pushear a otra rama sin permiso.
-- No meter datos de este hogar en las skills ni en `plantilla/`.
+- No meter datos de este hogar en las skills ni en `template/`.
 - No editar `pauta_nutricionista_bebe`/`perfiles_dieta` automáticamente al cerrar semana.
 - No re-introducir desayuno/fruta al plan de **este** hogar (fue una decisión explícita de sacarlos).

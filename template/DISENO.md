@@ -13,7 +13,7 @@
 ## Pendiente
 
 ### 1. Repo propio
-Publicar esta plantilla en **su propio repositorio** (hoy vive en `plantilla/` del repo del
+Publicar esta plantilla en **su propio repositorio** (hoy vive en `template/` del repo del
 hogar). Opcional: marcarlo como **template repository** de GitHub ("Use this template") y
 agregar un `LICENSE`.
 
