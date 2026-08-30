@@ -29,9 +29,10 @@
 
 ## Presupuesto
 
-- Referencia: **[$ rango]/[período]**.
-- Tope: **[$ máximo]** (no superar).
-- Estilo: [casero/chileno/asiático/…]; temporada y buen precio.
+- Moneda: **[tu moneda local, ej. USD, EUR, MXN, CLP…]**.
+- Referencia: **[rango]/[período]**.
+- Tope: **[máximo]** (no superar).
+- Estilo: [casero/asiático/mediterráneo/de tu país…]; temporada y buen precio.
 
 ## Reglas operativas propias (opcional)
 

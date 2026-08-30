@@ -31,4 +31,4 @@
 ## Balance y variedad de proteínas
 - [Cómo repartir las proteínas en la semana: cuotas, rotación pareja, qué se puede repetir].
 - [Límites por categoría: ej. "1 sola preparación de pescado por semana"; "vacuno máx. 2×"].
-- [Alternancia de estilos: chileno/asiático/…].
+- [Alternancia de estilos: p. ej. casero/asiático/mediterráneo/de tu país/…].

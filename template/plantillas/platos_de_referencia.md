@@ -16,7 +16,7 @@
 * [ ]
 
 ## Bases (arroz, guarniciones)
-* [ej. Arroz graneado con sofrito de zanahoria, pimentón y ajo; apartar porción del bebé sin sal ni ajo]
+* [ej. Arroz graneado con sofrito de zanahoria, pimentón y ajo; si algún comensal lo requiere, apartar su porción sin sal ni aliños fuertes]
 
 ## Día de legumbres / platos especiales del ciclo
 * [ ]

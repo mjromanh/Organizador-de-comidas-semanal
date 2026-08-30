@@ -16,8 +16,9 @@ comensal cuando hay dietas distintas, sobre una base común.
 Esta es la **versión genérica**: sirve para cualquier hogar (una persona o varias, con o sin
 niños, con cualquier dieta o ninguna).
 
-> **Alcance:** pensado para **Chile** — la lista de compras usa **pesos chilenos (CLP)** y
-> productos/tiendas locales. No está adaptado a otros países (moneda/unidades/marcas).
+> **Moneda, productos y tiendas:** la lista de compras usa **la moneda, los productos y las
+> tiendas de tu hogar** — los defines en la configuración (`organizacion_hogar` y
+> `marcas_y_productos`). No hay país ni moneda fijados: lo que declares es lo que se usa.
 
 ## Empezar (solo contestar)
 

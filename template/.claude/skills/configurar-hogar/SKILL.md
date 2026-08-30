@@ -23,7 +23,7 @@ Recorre estos bloques en orden; salta lo que no aplique:
 1. **Comensales y cobertura** → `perfiles_dieta.md`
    - ¿Quiénes comen? (adultos, niños, bebé). ¿Comensales adicionales algunos días?
    - ¿Qué comidas cubre el plan (desayuno/almuerzo/cena) y qué días? ¿Fines de semana se cocina o salen?
-   - ¿Almuerzos para llevar (oficina/colegio)? ¿Qué días? **Pregúntalo siempre.** Si lleva, define **cómo se empaca y guarda cada pote**: a **refri** si es para días cercanos, al **freezer** si es para más adelante; y en qué sesión de cocina se prepara cada uno. Esto alimenta directamente la tarea de Guardado (casa vs. oficina → refri/freezer).
+   - ¿Almuerzos para llevar (oficina/colegio)? ¿Qué días? **Pregúntalo siempre.** Si lleva, define **cómo se empaca y guarda cada pote**: a **refri** si es para días cercanos, al **freezer** si es para más adelante; y en qué sesión de cocina se prepara cada uno. Esto alimenta directamente la tarea de Guardado (en casa vs. para llevar → refri/freezer).
    - **Dietas, restricciones y lo que evita (por comensal):** tipo de dieta (vegetariano/vegano/pescetariano/sin restricción) y proteína mínima si aplica; **alergias o intolerancias**; **condimentos o aliños a evitar** (sal, ajo, picante, azúcar añadida); y **alimentos que no quiere por gusto** (que no se incluyan).
    - **Composición de cada comida (por comensal):** qué lleva y en qué orden (ej. almuerzo = entrada + proteína + carbohidrato; cena sin carbohidrato); **si lleva postre/fruta y para quién** (puede ser solo para algunos, p. ej. solo el bebé); y **si tiene alguna referencia de cantidades/porciones** (gramos, "1 palma de la mano", tazas, n.º de unidades) para dimensionar bien.
    - **Reglas por edad con fecha futura** (sobre todo bebés/niños): alimentos que se habilitan o restringen a cierta edad (ej. lácteos/avena desde los 10 meses). Pide la **fecha de nacimiento** y deja la **fecha exacta** del cambio para que el planificador la aplique sola.
@@ -36,7 +36,7 @@ Recorre estos bloques en orden; salta lo que no aplique:
    - **Días y horarios de cocina** (cuántas sesiones por semana, cuánto dura cada una).
    - Equipos disponibles (olla, horno, airfryer, procesadora, olla a presión, etc.) **y, junto con esto, la complejidad de preparación buscada:** nivel de quien cocina y cuán elaboradas o rápidas deben ser las recetas.
    - Conservación: cuántos días aguanta el refri; qué va al freezer.
-   - Presupuesto: referencia y tope. Aclara que es **referencia, no bloqueo** (la lista incluye abarrotes que se descartan si ya se tienen); el límite duro es el tope.
+   - Presupuesto: **moneda local** (en qué moneda comprará y quieres la lista, ej. USD/EUR/MXN/CLP…), referencia y tope. Aclara que es **referencia, no bloqueo** (la lista incluye abarrotes que se descartan si ya se tienen); el límite duro es el tope.
    - **Reglas operativas de cocina propias:** ¿alguna restricción al cocinar? (ej. no más de una legumbre por sesión; los ítems de cocción larga van a la sesión larga; reparto de los potes de oficina entre sesiones).
 
 3. **Gustos y marcas** → `platos_de_referencia.md` y `marcas_y_productos.md`

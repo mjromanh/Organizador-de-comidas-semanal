@@ -20,18 +20,18 @@ Confirma que el plan trae las 7 tareas, **enteras** (no a medias). Si falta una 
 1. **Menú** — las comidas de todos los comensales y días **según la cobertura de `perfiles_dieta`**: exige **exactamente** las comidas que esa cobertura declara para cada comensal — no marques como faltante una comida que el hogar no cubre, ni pases por alto una que sí (el motor no asume ni excluye ninguna por defecto); si algún comensal come por BLW/papilla, cada comida suya **estructurada** (proteína + carbohidrato + ≥3 verduras, no solo la proteína) + resumen de frecuencias. Si esas comidas vienen "a secas" (sin carbohidrato o sin verduras), es ❌.
 2. **Lista de compras** — por secciones, **con cantidades exactas**, **subtotales + total** (suma real; bajo el tope si existe) **y versión WhatsApp**. Una lista sin cantidades o a bosquejo es ❌.
 3. **Plan de cocina** — por día de cocina, con **cantidades exactas**, y cabe en el tiempo de la sesión.
-4. **Guardado** — cada preparación con destino (refri/freezer), casa vs. oficina, y hasta cuándo.
+4. **Guardado** — cada preparación con destino (refri/freezer), en casa vs. para llevar (si aplica), y hasta cuándo.
 5. **Hoja por día** — una por día de cocina, con bloques Preparar + Guardar, **+ versión lista para enviar/imprimir para quien cocina** (texto plano, con recordatorios de apartar la porción de quien lo requiera). Si falta la versión para enviar, es ❌.
 6. **Plan de descongelado** — para todo lo marcado a freezer.
 7. **Notas de seguridad** — las aplicables a la semana.
 
 ### B) Reglas transversales (re-derivadas, cuenta y recalcula)
 - **Dietas duras de cada comensal:** lo que no come / exclusiones / proteína mínima → ningún plato se las salta.
-- **Frecuencias y rotación:** cuenta de verdad cada grupo (ej. frecuencias del bebé; vacuno ≤ tope; "1 sola preparación de pescado"). **Verifica la rotación por categoría de proteína** (no solo que no se repita el mismo plato): que no se cargue una misma proteína días seguidos. **Verifica también la rotación de acompañamientos/carbohidratos** (arroz, papa, fideos, puré, quínoa, choclo…): que no se repita el mismo días seguidos ni domine toda la semana. Reporta el número real, no el del plan.
+- **Frecuencias y rotación:** cuenta de verdad cada grupo según las reglas de `perfiles_dieta` (p. ej. un tope de cierta proteína por semana, un mínimo, o una frecuencia especial de un comensal). **Verifica la rotación por categoría de proteína** (no solo que no se repita el mismo plato): que no se cargue una misma proteína días seguidos. **Verifica también la rotación de acompañamientos/carbohidratos** (arroz, papa, fideos, puré, quínoa, choclo…): que no se repita el mismo días seguidos ni domine toda la semana. Reporta el número real, no el del plan.
 - **Cobertura:** todas las comidas de todos los comensales y días; **porciones para el headcount completo** (incluidos adicionales).
-- **Composición** según la regla del comensal: orden/estructura; **postre/fruta solo para quien corresponde**; lo del bebé apartado **sin sal ni ajo**.
-- **Papillas** (si aplica): consumo vs. stock; reglas de vacuno y legumbre; tanda nueva y reposición.
-- **Conservación:** nada de refri supera el límite; lo lejano va a freezer; potes de oficina a refri/freezer según el día.
+- **Composición** según la regla del comensal: orden/estructura; **postre/fruta solo para quien corresponde**; la porción de quien lo requiera apartada según su regla (p. ej. un bebé: **sin sal ni aliños fuertes**).
+- **Papillas/stock** (si aplica): consumo vs. stock; las frecuencias y reglas que defina `perfiles_dieta`; tanda nueva y reposición.
+- **Conservación:** nada de refri supera el límite; lo lejano va a freezer; los potes para llevar (si aplica) van a refri/freezer según el día.
 - **Presupuesto:** recalcula el **total como suma real de los ítems**; subtotales por sección; bajo el tope (si existe).
 - **Crudo vs. cocido:** recalcula los gramajes de proteína aplicando la merma (~25–30 %): lo comprado **en crudo** debe cubrir la necesidad **en cocido** (las reglas de dieta suelen ser gramos cocidos). Los adicionales van con porción normal, no con la cuota del comensal que tiene regla propia.
 - **Continuidad entre semanas:** el contenido de lo heredado (pote/preparación) que cita el plan coincide con lo que el **plan anterior** empacó (o está marcado como supuesto); el plan **define** lo que empaca/congela para la semana siguiente y programa su descongelado. Un pote/heredado "a definir" es ❌.

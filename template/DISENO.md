@@ -4,7 +4,8 @@
 > redonda. No son reglas del planificador; son notas del proyecto.
 
 ## Decidido
-- **Alcance: solo Chile** (CLP, productos y tiendas chilenas). No se adapta a otros países.
+- **Alcance: agnóstico al país.** Moneda, productos y tiendas los define cada hogar en su
+  configuración (`organizacion_hogar`, `marcas_y_productos`); el motor no fija moneda ni locale.
 - **Restricciones culturales/religiosas:** no se preguntan aparte; caen en "lo que evita /
   no come" de cada comensal.
 - **Cierre de semana:** la routine cierra la semana anterior (actualiza `bitacora`) antes de
