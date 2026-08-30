@@ -16,13 +16,13 @@ Eres un **verificador independiente**. NO planificas ni cambias el menú: audita
 Marca ✅/❌ con la **evidencia**. Revisa **dos cosas**: que estén **todos los entregables completos** y que se cumplan las **reglas transversales**.
 
 ### A) Cada entregable presente y completo (las 7 tareas)
-Confirma que el plan trae las 7 tareas, **enteras** (no a medias). Si falta una o está incompleta, es ❌.
+Confirma que el plan trae las 7 tareas, **enteras** (no a medias). Si falta una o está incompleta, es ❌. **Excepción:** el **plan de descongelado (6)** puede quedar como "No aplica esta semana" si no se congeló nada — eso cuenta como completo.
 1. **Menú** — las comidas de todos los comensales y días **según la cobertura de `perfiles_dieta`**: exige **exactamente** las comidas que esa cobertura declara para cada comensal — no marques como faltante una comida que el hogar no cubre, ni pases por alto una que sí (el motor no asume ni excluye ninguna por defecto); si algún comensal come por BLW/papilla, cada comida suya **estructurada** (proteína + carbohidrato + ≥3 verduras, no solo la proteína) + resumen de frecuencias. Si esas comidas vienen "a secas" (sin carbohidrato o sin verduras), es ❌.
 2. **Lista de compras** — por secciones, **con cantidades exactas**, **subtotales + total** (suma real; bajo el tope si existe) **y versión WhatsApp**. Una lista sin cantidades o a bosquejo es ❌.
 3. **Plan de cocina** — por día de cocina, con **cantidades exactas**, y cabe en el tiempo de la sesión.
 4. **Guardado** — cada preparación con destino (refri/freezer), en casa vs. para llevar (si aplica), y hasta cuándo.
 5. **Hoja por día** — una por día de cocina, con bloques Preparar + Guardar, **+ versión lista para enviar/imprimir para quien cocina** (texto plano, con recordatorios de apartar la porción de quien lo requiera). Si falta la versión para enviar, es ❌.
-6. **Plan de descongelado** — para todo lo marcado a freezer.
+6. **Plan de descongelado** — para todo lo marcado a freezer. **Si el plan no congela nada, basta la nota "No aplica esta semana (nada al freezer)"; no lo marques ❌ por faltar un calendario.** Solo es ❌ si hay ítems al freezer sin su descongelado.
 7. **Notas de seguridad** — las aplicables a la semana.
 
 ### B) Reglas transversales (re-derivadas, cuenta y recalcula)

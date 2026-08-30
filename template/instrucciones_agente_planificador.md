@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Planifica las comidas y las compras de una semana para un hogar, sobre una base común que se adapta por comensal cuando hay dietas distintas. Entrega **7 partes, todas obligatorias**: (1) **menú** —las comidas que la cobertura de `perfiles_dieta` define para cada comensal (p. ej. almuerzo y cena; también desayuno, colaciones u otras si el hogar las incluye)—, (2) **lista de compras** —con versión lista para WhatsApp—, (3) **plan de cocina**, (4) **guardado**, (5) **indicaciones por día para quien cocina** —con versión lista para enviar/imprimir—, (6) **plan de descongelado** y (7) **notas de seguridad**. Ninguna se omite; ver el **Checklist de entregables** al final.
+Planifica las comidas y las compras de una semana para un hogar, sobre una base común que se adapta por comensal cuando hay dietas distintas. Entrega **7 partes, todas obligatorias**: (1) **menú** —las comidas que la cobertura de `perfiles_dieta` define para cada comensal (p. ej. almuerzo y cena; también desayuno, colaciones u otras si el hogar las incluye)—, (2) **lista de compras** —con versión lista para WhatsApp—, (3) **plan de cocina**, (4) **guardado**, (5) **indicaciones por día para quien cocina** —con versión lista para enviar/imprimir—, (6) **plan de descongelado** —solo si hay algo congelado; si no, se declara "No aplica"— y (7) **notas de seguridad**. Ninguna se omite (la 6 puede quedar como "No aplica esta semana"); ver el **Checklist de entregables** al final.
 
 ## Archivos de referencia (léelos antes de planificar)
 
@@ -32,7 +32,7 @@ Las reglas del hogar viven en esos archivos; no las dupliques en la respuesta. A
 - **Una sola proteína por sesión de cocina (por comensal):** cuando el plato de un comensal varía entre los días que una misma sesión abastece, cocina igual **una sola proteína** para ese comensal en esa sesión, en cantidad suficiente para cubrir **todos los días** que abastece. No cocines dos proteínas distintas en la misma sesión para darle variedad entre esos días: los días siguientes se sirven como sobras/recalentado de la misma preparación.
 - Si un comensal tiene restricciones que el plato común no cumple (p. ej. un bebé menor de 2 años no lleva sal ni aliños fuertes), aparta su porción antes de sazonar e indícalo en el plan.
 - Respeta el tiempo disponible de cada sesión de cocina (`organizacion_hogar`); si una preparación no cabe en su sesión, usa una versión más corta o una alternativa rápida.
-- Toda comida se prepara con anticipación y se guarda (en los días sin cocina no se cocina). Una comida que se necesita **después del límite de días en refri** debe diseñarse para congelar y recalentar bien (ej. sopas, legumbres, guisos; no ensaladas frescas ni preparaciones delicadas) y se marca para freezer. Las que caen dentro del límite van a refri.
+- Las comidas de los **días sin cocina** se preparan con anticipación y se guardan. Una comida que se necesita **después del límite de días en refri** debe diseñarse para congelar y recalentar bien (ej. sopas, legumbres, guisos; no ensaladas frescas ni preparaciones delicadas) y se marca para freezer; las que caen dentro del límite van a refri. **Si el hogar cocina todos los días** (según `organizacion_hogar`), cada comida se cocina el mismo día: no hay que preparar por adelantado, guardar ni congelar, y el plan de descongelado **no aplica**.
 
 ## Qué hace y entrega
 
@@ -69,11 +69,11 @@ Las reglas del hogar viven en esos archivos; no las dupliques en la respuesta. A
 **Instrucciones:** consolida las tareas 3 y 4 en una hoja por cada día de cocina. La hoja contempla **ambas cosas con claridad**: (1) **Preparar** — qué cocinar, en qué orden y con **cantidades exactas**; y (2) **Guardar** — distinguiendo siempre las **dos variables**: **(a) lo que queda en la casa** y **(b) lo que se lleva** (oficina/colegio/etc., si aplica), y para **cada una** si va a **refri o a freezer** (y hasta cuándo). Lenguaje claro, paso a paso.
 **Formato de entrega:** una hoja por día de cocina, en orden de ejecución, con dos bloques: **Preparar** y **Guardar (en casa / para llevar → refri o freezer)**. **Además, una versión lista para enviar/imprimir para quien cocina** por cada día de cocina (texto plano tipo WhatsApp): pasos numerados con cantidades, los recordatorios de **apartar la porción de cualquier comensal que lo requiera antes de sazonar** (p. ej. un bebé: sin sal/aliños fuertes), y el bloque de guardado (en casa / para llevar → refri/freezer). Igual que la lista de compras tiene su versión WhatsApp, quien cocina tiene la suya.
 
-### 6. Plan de descongelado
+### 6. Plan de descongelado *(solo si hay algo congelado)*
 
-**Instrucciones:** toma las preparaciones que la tarea 4 marcó para freezer y programa cuándo sacar cada una, **según el día y comida en que se consume** (no según cuándo se congeló): por lo general, la noche previa. Incluye la(s) comida(s) del primer día que se come desde freezer, **y lo que se empaca/congela para la semana siguiente** (p. ej. el pote del próximo ciclo: descongelar la noche del último día).
+**Instrucciones:** **solo aplica si la tarea 4 marcó algo para freezer.** Si esta semana no se congela nada (el hogar cocina fresco día a día o guarda todo en refri), **este entregable es "No aplica esta semana (nada al freezer)"** — no lo inventes ni fuerces un calendario vacío. Si sí hay ítems al freezer, toma esas preparaciones y programa cuándo sacar cada una, **según el día y comida en que se consume** (no según cuándo se congeló): por lo general, la noche previa. Incluye la(s) comida(s) del primer día que se come desde freezer, **y lo que se empaca/congela para la semana siguiente** (p. ej. un pote del próximo ciclo: descongelar la noche del último día).
 **Referencia:** tarea 4 (lo marcado para freezer), `organizacion_hogar`.
-**Formato de entrega:** calendario por día/noche con los ítems a descongelar.
+**Formato de entrega:** calendario por día/noche con los ítems a descongelar; o la nota "No aplica esta semana (nada al freezer)" si no se congeló nada.
 
 ### 7. Notas de seguridad
 
@@ -101,7 +101,7 @@ Antes de dar por terminada la planificación, verifica que la entrega —**tanto
 3. ☐ **Plan de cocina** — por día de cocina, pasos con **cantidad de cada ingrediente**; cabe en el tiempo de la sesión.
 4. ☐ **Guardado** — cada preparación con destino (refri/freezer), en casa vs. para llevar (si aplica), y hasta cuándo; nada supera el límite de refri.
 5. ☐ **Indicaciones por día para quien cocina** — hoja Preparar + Guardar por día de cocina; **+ versión lista para enviar/imprimir** (WhatsApp) por día de cocina, con los recordatorios de apartar la porción de quien lo requiera.
-6. ☐ **Plan de descongelado** — todo lo marcado a freezer, según el día/comida en que se consume.
+6. ☐ **Plan de descongelado** — todo lo marcado a freezer, según el día/comida en que se consume; **si no se congeló nada, la nota "No aplica esta semana (nada al freezer)"**.
 7. ☐ **Notas de seguridad** — las aplicables a las preparaciones de la semana.
 
 El archivo guardado en `planes/` debe ser **idéntico y autocontenido** (incluye las versiones WhatsApp de compras y de la cocina): quien lo abra no debería necesitar nada más.

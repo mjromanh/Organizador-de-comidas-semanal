@@ -36,7 +36,7 @@ Sigue el detalle, el formato de entrega y las verificaciones clave que define `i
 3. **Plan de cocina** (por día de cocina, dentro del tiempo de cada sesión según `organizacion_hogar`).
 4. **Guardado** (refri/freezer + empaque; nada supera el límite de refri).
 5. **Indicaciones por día** (una hoja por día de cocina, en orden de ejecución, **+ versión lista para enviar/imprimir para quien cocina** en texto plano).
-6. **Plan de descongelado** (según el día/comida en que se consume).
+6. **Plan de descongelado** (según el día/comida en que se consume) — **solo si hay algo al freezer; si no, "No aplica esta semana (nada al freezer)"**.
 7. **Notas de seguridad** (aplicables a las preparaciones de la semana).
 
 Antes de cerrar, repasa el **Checklist de entregables** de `instrucciones_agente_planificador.md`: no termines la corrida si falta alguno.
