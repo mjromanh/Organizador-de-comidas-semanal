@@ -1,2 +1,5 @@
 # Configuración local de la sesión de Claude (no compartir)
 .claude/settings.local.json
+
+# Sandbox de prueba del onboarding (no se commitea; template/ queda intacto)
+sandbox/
