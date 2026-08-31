@@ -10,10 +10,12 @@
 
 ## Días y horarios de cocina
 
-- Se cocina **[día(s)]**:
+- Modelo de cocina: **[cocino todos los días fresco / cocino por tandas y guardo el resto]**.
+- Se cocina **[día(s), o "todos los días"]**:
   - **[Día] (~[X] h):** [sesión corta/larga].
   - *(agrega las sesiones que correspondan)*
-- **No se cocina** [días]. Esas comidas salen de refri o freezer.
+- **No se cocina** [días, o "ninguno: se cocina a diario"]. Esas comidas salen de refri o freezer *(si aplica)*.
+- *Si se cocina todos los días fresco, no hay guardado a futuro ni descongelado.*
 - *Los ítems de cocción larga (legumbres secas, integrales, guisos) van a la sesión larga, quedan congelados, o usan alternativa rápida (tarro, olla a presión).*
 
 ## Equipos disponibles

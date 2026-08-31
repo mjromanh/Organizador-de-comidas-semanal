@@ -33,7 +33,9 @@ Recorre estos bloques en orden; salta lo que no aplique:
 
 2. **Operación del hogar** → `organizacion_hogar.md`
    - Ciclo de compra (cada cuánto, qué día se pide/llega).
-   - **Días y horarios de cocina** (cuántas sesiones por semana, cuánto dura cada una).
+   - **Modelo de cocina (pregúntalo primero, define todo el guardado y el descongelado):** ¿cocinas **todos los días** (fresco) o **por tandas** —cocinas algunos días y guardas el resto en refri/freezer—? 
+     - Si es **por tandas:** ¿qué días cocinas, cuántas sesiones por semana y cuánto dura cada una? ¿Qué días **no** se cocina (esas comidas salen de refri/freezer)?
+     - Si cocinas **fresco a diario:** anótalo así ("todos los días"); no habrá guardado a futuro ni plan de descongelado.
    - Equipos disponibles (olla, horno, airfryer, procesadora, olla a presión, etc.) **y, junto con esto, la complejidad de preparación buscada:** nivel de quien cocina y cuán elaboradas o rápidas deben ser las recetas.
    - Conservación: cuántos días aguanta el refri; qué va al freezer.
    - Presupuesto: **moneda local** (en qué moneda comprará y quieres la lista, ej. USD/EUR/MXN/CLP…), referencia y tope. Aclara que es **referencia, no bloqueo** (la lista incluye abarrotes que se descartan si ya se tienen); el límite duro es el tope.
